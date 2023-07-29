@@ -1,66 +1,25 @@
 import React from 'react';
 import { FaBeer } from 'react-icons/fa';
-import { motion, useAnimation } from 'framer-motion';
-import { useEffect, useRef } from 'react';
+import { useEffect } from 'react';
 import SectionTitle from '../../../shared/SectionTitle/SectionTitle';
+import Aos from 'aos';
+import 'aos/dist/aos.css';
 
 const Services = () => {
-	const fadeInVariants = {
-		hidden: {
-			opacity: 0,
-			x: 200,
-		},
-		visible: {
-			opacity: 1,
-			x: 0,
-			transition: {
-				duration: 1,
-				ease: 'easeInOut',
-			},
-		},
-	};
-
-	const elementRef = useRef(null);
-	const controls = useAnimation();
-
 	useEffect(() => {
-		const observer = new IntersectionObserver(
-			(entries) => {
-				entries.forEach((entry) => {
-					if (entry.isIntersecting) {
-						controls.start('visible');
-					} else {
-						controls.start('hidden');
-					}
-				});
-			},
-			{ threshold: 0.3 }
-		);
-
-		if (elementRef.current) {
-			observer.observe(elementRef.current);
-		}
-
-		return () => {
-			if (elementRef.current) {
-				observer.unobserve(elementRef.current);
-			}
-		};
-	}, [controls]);
-
+		Aos.init({ duration: '1000' });
+	}, []);
 	return (
-		<div className="bg-[#313741]">
-			<motion.div
-				id="services"
-				ref={elementRef}
-				variants={fadeInVariants}
-				initial="hidden"
-				animate={controls}
-			>
+		<div id="services" className="bg-[#313741]">
+			
+			<div>
 				<SectionTitle title="services" upperTitle="what i do" />
 
-				<div className="md:flex justify-between text-white px-20 pb-20">
-					<div className="flex justify-center items-center">
+				<div className="lg:flex  justify-between text-white px-20 pb-20">
+					<div
+						data-aos="fade-right"
+						className="lg:flex justify-center items-center mb-3"
+					>
 						<FaBeer className="w-20 h-20 border p-5 text-blue-500"></FaBeer>
 						<div className="w-64 ml-3">
 							<h3 className="text-2xl font-semibold">
@@ -72,7 +31,10 @@ const Services = () => {
 							</p>
 						</div>
 					</div>
-					<div className="flex justify-center items-center">
+					<div
+						data-aos="fade-up"
+						className="flex justify-center items-center mb-3"
+					>
 						<FaBeer className="w-20 h-20 border p-5 text-blue-500"></FaBeer>
 						<div className="w-64 ml-3">
 							<h3 className="text-2xl font-semibold">
@@ -84,7 +46,10 @@ const Services = () => {
 							</p>
 						</div>
 					</div>
-					<div className="flex justify-center items-center">
+					<div
+						data-aos="fade-left"
+						className="flex justify-center items-center"
+					>
 						<FaBeer className="w-20 h-20 border p-5 text-blue-500"></FaBeer>
 						<div className="w-64 ml-3">
 							<h3 className="text-2xl font-semibold">
@@ -97,7 +62,7 @@ const Services = () => {
 						</div>
 					</div>
 				</div>
-			</motion.div>
+			</div>
 		</div>
 	);
 };

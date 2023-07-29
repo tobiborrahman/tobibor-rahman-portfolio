@@ -10,7 +10,7 @@ const Navbar = () => {
 	};
 
 	return (
-		<div className="navbar fixed bg-[#111827] md:px-20 z-50 md:opacity-50 p-0">
+		<div className="navbar lg:fixed bg-[#111827] md:px-20 z-50 md:opacity-50 p-0">
 			<div className="navbar-start">
 				<div className="dropdown">
 					<label tabIndex={0} className="text-white lg:hidden">
@@ -44,7 +44,7 @@ const Navbar = () => {
 								<a href="#contact">Contact</a>
 							</li>
 						</ul>
-						<div className="">
+						<div>
 							<a
 								className="md:p-4 shadow-2xl text-2xl font-semibold bg-gradient-to-r from-[#00F29C] to-[#07F7F2] "
 								href="../../../public/resume.pdf"
@@ -55,7 +55,7 @@ const Navbar = () => {
 						</div>
 					</ul>
 				</div>
-				<img className="w-40 hidden md:inline h-28" src={logo} alt="" />
+				<img className="w-40 hidden md:inline h-20" src={logo} alt="" />
 			</div>
 			<div className="navbar-center hidden lg:flex">
 				<ul className="menu menu-horizontal px-1 text-white text-xl font-semibold">
@@ -79,9 +79,9 @@ const Navbar = () => {
 					</li>
 				</ul>
 			</div>
-			<div className="hidden md:inline-flex md:navbar-end">
+			<div className="hidden lg:inline-flex lg:navbar-end">
 				<a
-					className="md:p-4 shadow-2xl text-2xl font-semibold bg-gradient-to-r from-[#00F29C] to-[#07F7F2] "
+					className="md:p-2 shadow-2xl  bg-gradient-to-r from-[#00F29C] to-[#07F7F2] "
 					href="../../../public/resume.pdf"
 					download="final resume.pdf"
 				>
