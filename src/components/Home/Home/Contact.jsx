@@ -49,7 +49,7 @@ const Contact = () => {
 							r.tobibor16@gmail.com
 						</p>
 
-						<h2 className="text-5xl py-5">Address</h2>
+						<h2 className="text-5xl py-5">Social</h2>
 						<div className="flex justify-between w-full">
 							<FaFacebook className="text-3xl duration-300 hover:text-blue-500" />
 							<FaInstagram className="text-3xl duration-300 hover:text-red-300" />

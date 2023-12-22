@@ -10,7 +10,7 @@ const Navbar = () => {
 	};
 
 	return (
-		<div className="navbar lg:fixed bg-[#111827] md:px-20 z-50 md:opacity-50 p-0">
+		<div className="navbar lg:fixed bg-black md:px-20 z-50 md:opacity-100 py-3">
 			<div className="navbar-start">
 				<div className="dropdown">
 					<label tabIndex={0} className="text-white lg:hidden">
@@ -25,7 +25,7 @@ const Navbar = () => {
 						className="w-[300px] dropdown-content text-center mt-3 z-40 p-2 shadow bg-base-100 rounded-box "
 					>
 						<ul className="menu z-40">
-							<li>
+							<li className="hover:text-[#cd9777]">
 								<a href="#home">Home</a>
 							</li>
 							<li>
@@ -55,27 +55,39 @@ const Navbar = () => {
 						</div>
 					</ul>
 				</div>
-				<img className="w-40 hidden md:inline h-20" src={logo} alt="" />
+				<h1 className="text-3xl font-bold text-white">TOBIBOR.</h1>
 			</div>
 			<div className="navbar-center hidden lg:flex">
-				<ul className="menu menu-horizontal px-1 text-white text-xl font-semibold">
+				<ul className="menu menu-horizontal px-1 text-white font-semibold">
 					<li>
-						<a href="#home">Home</a>
+						<a className="hover:text-[#cd9777]" href="#home">
+							Home
+						</a>
 					</li>
 					<li>
-						<a href="#about">About</a>
+						<a className="hover:text-[#cd9777]" href="#about">
+							About
+						</a>
 					</li>
 					<li>
-						<a href="#services">What I Do</a>
+						<a className="hover:text-[#cd9777]" href="#services">
+							What I Do
+						</a>
 					</li>
 					<li>
-						<a href="#resume">Resume</a>
+						<a className="hover:text-[#cd9777]" href="#resume">
+							Resume
+						</a>
 					</li>
 					<li>
-						<a href="#portfolio">Portfolio</a>
+						<a className="hover:text-[#cd9777]" href="#portfolio">
+							Portfolio
+						</a>
 					</li>
 					<li>
-						<a href="#contact">Contact</a>
+						<a className="hover:text-[#cd9777]" href="#contact">
+							Contact
+						</a>
 					</li>
 				</ul>
 			</div>

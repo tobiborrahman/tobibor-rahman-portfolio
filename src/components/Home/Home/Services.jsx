@@ -1,65 +1,139 @@
 import React from 'react';
-import { FaBeer } from 'react-icons/fa';
 import { useEffect } from 'react';
 import SectionTitle from '../../../shared/SectionTitle/SectionTitle';
 import Aos from 'aos';
 import 'aos/dist/aos.css';
+
+import { PiDesktopLight } from 'react-icons/pi';
+import { IoIosArrowRoundForward } from 'react-icons/io';
+
+import img1 from '../../../../public/web-des.webp';
+import img2 from '../../../../public/web-development.webp';
+import img3 from '../../../../public/full-stack.jpg';
 
 const Services = () => {
 	useEffect(() => {
 		Aos.init({ duration: '1000' });
 	}, []);
 	return (
-		<div id="services" className="bg-[#313741]">
-			
+		<div id="services" className="bg-[#F9FAFB]">
 			<div>
-				<SectionTitle title="services" upperTitle="what i do" />
+				<SectionTitle title="services" upperTitle="what do I offer?" />
 
-				<div className="lg:flex  justify-between text-white px-20 pb-20">
+				<div className="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 mt-8 gap-[30px] px-3 md:px-20 pb-10 md:pb-20">
 					<div
 						data-aos="fade-right"
-						className="lg:flex justify-center items-center mb-3"
+						className="px-6 py-10 shadow shadow-gray-200 hover:shadow-lg dark:shadow-gray-800 dark:hover:shadow-gray-700 transition duration-500 rounded-2xl bg-white dark:bg-slate-900 md:h-[290px]"
 					>
-						<FaBeer className="w-20 h-20 border p-5 text-blue-500"></FaBeer>
-						<div className="w-64 ml-3">
-							<h3 className="text-2xl font-semibold">
-								Web Design{' '}
-							</h3>
-							<p>
-								Lorem ipsum dolor sit amet, consectetur
-								adipisicing elit.
-							</p>
-						</div>
+						<p>
+							<PiDesktopLight className="text-5xl text-[#cd9777] font-thin" />
+						</p>
+						<h4 className="text-xl pt-5 hover:text-[#cd9777]">
+							UI/Ux Designer
+						</h4>
+						<p className="text-md py-5 text-[#94A3B8]">
+							The phrasal sequence of the is now so that many
+							campaign and benefit
+						</p>
+
+						<button className="flex justify-center items-center hover:text-[#cd9777] duration-500">
+							Read More <IoIosArrowRoundForward className="" />
+						</button>
 					</div>
 					<div
-						data-aos="fade-up"
-						className="flex justify-center items-center mb-3"
+						data-aos="fade-right"
+						className="px-6 py-10 shadow shadow-gray-200 hover:shadow-lg dark:shadow-gray-800 dark:hover:shadow-gray-700 transition duration-500 rounded-2xl bg-white dark:bg-slate-900 h-[290px]"
 					>
-						<FaBeer className="w-20 h-20 border p-5 text-blue-500"></FaBeer>
-						<div className="w-64 ml-3">
-							<h3 className="text-2xl font-semibold">
-								Web Development
-							</h3>
-							<p>
-								Lorem ipsum dolor sit amet, consectetur
-								adipisicing elit.
-							</p>
-						</div>
+						<p>
+							<PiDesktopLight className="text-5xl text-[#cd9777] font-thin" />
+						</p>
+						<h4 className="text-xl pt-5 hover:text-[#cd9777]">
+							UI/Ux Designer
+						</h4>
+						<p className="text-md py-5 text-[#94A3B8]">
+							The phrasal sequence of the is now so that many
+							campaign and benefit
+						</p>
+
+						<button className="flex justify-center items-center hover:text-[#cd9777] duration-500">
+							Read More <IoIosArrowRoundForward className="" />
+						</button>
 					</div>
 					<div
-						data-aos="fade-left"
-						className="flex justify-center items-center"
+						data-aos="fade-right"
+						className="px-6 py-10 shadow shadow-gray-200 hover:shadow-lg dark:shadow-gray-800 dark:hover:shadow-gray-700 transition duration-500 rounded-2xl bg-white dark:bg-slate-900 h-[290px]"
 					>
-						<FaBeer className="w-20 h-20 border p-5 text-blue-500"></FaBeer>
-						<div className="w-64 ml-3">
-							<h3 className="text-2xl font-semibold">
-								Full Stack Development
-							</h3>
-							<p>
-								Lorem ipsum dolor sit amet, consectetur
-								adipisicing elit.
-							</p>
-						</div>
+						<p>
+							<PiDesktopLight className="text-5xl text-[#cd9777] font-thin" />
+						</p>
+						<h4 className="text-xl pt-5 hover:text-[#cd9777]">
+							UI/Ux Designer
+						</h4>
+						<p className="text-md py-5 text-[#94A3B8]">
+							The phrasal sequence of the is now so that many
+							campaign and benefit
+						</p>
+
+						<button className="flex justify-center items-center hover:text-[#cd9777] duration-500">
+							Read More <IoIosArrowRoundForward className="" />
+						</button>
+					</div>
+					<div
+						data-aos="fade-right"
+						className="px-6 py-10 shadow shadow-gray-200 hover:shadow-lg dark:shadow-gray-800 dark:hover:shadow-gray-700 transition duration-500 rounded-2xl bg-white dark:bg-slate-900 h-[290px]"
+					>
+						<p>
+							<PiDesktopLight className="text-5xl text-[#cd9777] font-thin" />
+						</p>
+						<h4 className="text-xl pt-5 hover:text-[#cd9777]">
+							UI/Ux Designer
+						</h4>
+						<p className="text-md py-5 text-[#94A3B8]">
+							The phrasal sequence of the is now so that many
+							campaign and benefit
+						</p>
+
+						<button className="flex justify-center items-center hover:text-[#cd9777] duration-500">
+							Read More <IoIosArrowRoundForward className="" />
+						</button>
+					</div>
+					<div
+						data-aos="fade-right"
+						className="px-6 py-10 shadow shadow-gray-200 hover:shadow-lg dark:shadow-gray-800 dark:hover:shadow-gray-700 transition duration-500 rounded-2xl bg-white dark:bg-slate-900 h-[290px]"
+					>
+						<p>
+							<PiDesktopLight className="text-5xl text-[#cd9777] font-thin" />
+						</p>
+						<h4 className="text-xl pt-5 hover:text-[#cd9777]">
+							UI/Ux Designer
+						</h4>
+						<p className="text-md py-5 text-[#94A3B8]">
+							The phrasal sequence of the is now so that many
+							campaign and benefit
+						</p>
+
+						<button className="flex justify-center items-center hover:text-[#cd9777] duration-500">
+							Read More <IoIosArrowRoundForward className="" />
+						</button>
+					</div>
+					<div
+						data-aos="fade-right"
+						className="px-6 py-10 shadow shadow-gray-200 hover:shadow-lg dark:shadow-gray-800 dark:hover:shadow-gray-700 transition duration-500 rounded-2xl bg-white dark:bg-slate-900 h-[290px]"
+					>
+						<p>
+							<PiDesktopLight className="text-5xl text-[#cd9777] font-thin" />
+						</p>
+						<h4 className="text-xl pt-5 hover:text-[#cd9777]">
+							UI/Ux Designer
+						</h4>
+						<p className="text-md py-5 text-[#94A3B8]">
+							The phrasal sequence of the is now so that many
+							campaign and benefit
+						</p>
+
+						<button className="flex justify-center items-center hover:text-[#cd9777] duration-500">
+							Read More <IoIosArrowRoundForward className="" />
+						</button>
 					</div>
 				</div>
 			</div>

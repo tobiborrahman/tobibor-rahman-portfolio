@@ -1,7 +1,7 @@
 import React from 'react';
 import { useEffect, useRef } from 'react';
 import SectionTitle from '../../../shared/SectionTitle/SectionTitle';
-import img1 from '../../../../public/project-1.png';
+import img1 from '../../../../public/toy-market-network.png';
 import img2 from '../../../../public/project-2.png';
 import img3 from '../../../../public/project-3.png';
 import { FaArrowRight } from 'react-icons/fa';
@@ -14,7 +14,7 @@ const Portfolio = () => {
 	}, []);
 
 	const handleClick = () => {
-		window.open('https://sport-toys-network.web.app/');
+		window.open('https://toy-market-network.web.app/');
 	};
 
 	const handleClick2 = () => {
@@ -27,9 +27,7 @@ const Portfolio = () => {
 
 	return (
 		<div className="bg-[#313741]">
-			
 			<div id="portfolio">
-			
 				<SectionTitle title="portfolio" upperTitle="my work" />
 
 				<div className="md:flex justify-between px-20 pb-28">

@@ -1,11 +1,11 @@
 import React from 'react';
 import { useTypewriter, Cursor } from 'react-simple-typewriter';
-import { motion, useAnimation } from 'framer-motion';
 import { useEffect, useRef } from 'react';
 import './Banner.css';
 import profile from '../../../../public/profile.png';
 import Aos from 'aos';
 import 'aos/dist/aos.css';
+import Navbar from '../../../shared/Navbar/Navbar';
 
 const Banner = () => {
 	useEffect(() => {
@@ -14,8 +14,9 @@ const Banner = () => {
 
 	const [text] = useTypewriter({
 		words: [
-			'a Designer',
-			'a Front End Developer',
+			'a Web Designer',
+			'a Front-End Developer',
+			'a Back-End Developer',
 			'a Full Stack Developer',
 		],
 		loop: {},
@@ -26,23 +27,29 @@ const Banner = () => {
 	return (
 		<>
 			{/* <Particle></Particle> */}
+			{/* <Navbar /> */}
 			<div
 				id="banner"
-				className="w-100 md:h-[100vh] pt-56 bg-gradient-to-r from-[#00F29C] to-[#07F7F2]  md:pt-0 md:flex justify-around items-center px-20"
+				className=" bg-gradient-to-b from-black to-gray-800 md:flex justify-between items-center px-5 md:px-20 pt-10 md:pt-48 pb-20"
 			>
-				<div className="w-2/4 md:mr-40">
+				<div className="flex justify-center items-center mb-20">
 					<div
 						data-aos="fade-right"
-						className="text-white text-center md:w-[700px]"
+						className="text-white text-center "
 					>
-						<h3 className="text-5xl font-semibold">Hello!</h3>
+						<h3 className="text-2xl md:text-5xl font-semibold">
+							Hello!
+						</h3>
 
 						<div>
 							<h1 className="text-4xl md:text-6xl font-bold my-5">
-								I'm <span>Tobibor Rahman</span>
+								I'm{' '}
+								<span className="text-gradient-to-r from-[#00F29C] to-[#07F7F2]">
+									Tobibor Rahman
+								</span>
 							</h1>
-							<h3 className="text-2xl md:text-5xl font-bold">
-								<span className="text-5xl font-bold">
+							<h3 className="text-xl md:text-5xl font-bold">
+								<span className="text-3xl text-[#cd9777] md:text-5xl font-bold">
 									{text}
 								</span>
 								<span>
@@ -51,7 +58,7 @@ const Banner = () => {
 							</h3>
 						</div>
 
-						<p className="text-2xl font-semibold my-3">
+						<p className="text-xl md:text-2xl font-semibold my-3">
 							Based in Dhaka, Bangladesh
 						</p>
 						<button className="border border-blue-500 px-6 py-2 text-blue-500 rounded-full text-xl mt-5 hover:text-white hover:bg-blue-500 duration-500">
@@ -60,7 +67,7 @@ const Banner = () => {
 					</div>
 				</div>
 
-				<div data-aos="fade-left" className="py-20 md:mt-0">
+				<div data-aos="fade-left">
 					<img
 						className="w-[400px] h-[400px] profile-img border-2"
 						src={profile}
