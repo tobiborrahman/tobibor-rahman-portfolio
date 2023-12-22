@@ -18,7 +18,7 @@ const Services = () => {
 	return (
 		<div id="services" className="bg-[#F9FAFB]">
 			<div>
-				<SectionTitle title="services" upperTitle="what do I offer?" />
+				<SectionTitle upperTitle="what do I offer?" />
 
 				<div className="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 mt-8 gap-[30px] px-3 md:px-20 pb-10 md:pb-20">
 					<div

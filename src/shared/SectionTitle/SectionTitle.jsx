@@ -17,10 +17,10 @@ const SectionTitle = ({ title, upperTitle }) => {
 			</h1>
 			<h3
 				data-aos="fade-up"
-				className="md:title-border text-xl md:text-4xl text-center font-bold capitalize absolute w-full align-middle top-[43%] md:top-[43%] text-transparent  bg-clip-text bg-gradient-to-r from-[#00F29C] to-[#07F7F2]"
+				className="md:title-border text-xl md:text-4xl text-center font-bold capitalize absolute w-full align-middle top-[43%] md:top-[43%]"
 			>
 				{upperTitle}
-				<span className="border-[3px] border-b mt-1 border-primary block mx-auto w-20"></span>
+				<span className="border-[3px] border-[#F59E0B] border-b mt-1  block mx-auto w-20"></span>
 			</h3>
 		</div>
 	);
