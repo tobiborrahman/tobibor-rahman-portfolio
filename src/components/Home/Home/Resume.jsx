@@ -3,18 +3,18 @@ import { useEffect } from 'react';
 import SectionTitle from '../../../shared/SectionTitle/SectionTitle';
 import { FaDownload } from 'react-icons/fa';
 
-import html from '../../../../public/html.png';
-import css from '../../../../public/css.png';
+import html from '/html.png';
+import css from '/css.png';
 import Bootstrap from '../../../../public/bootstrap-icon.jpg';
-import tailwind from '../../../../public/tailwind.png';
-import javascript from '../../../../public/javascript-fi.png';
-import react from '../../../../public/logo-react-icon.png';
-import node from '../../../../public/pngwing.com.png';
-import express from '../../../../public/express-fi.png';
-import mongodb from '../../../../public/mongodb-fi.png';
-import jwt from '../../../../public/jwt-fin.png';
-import firebase from '../../../../public/firebase-fin.png';
-import github from '../../../../public/github-logo.png';
+import tailwind from '/tailwind.png';
+import javascript from '/javascript-fi.png';
+import react from '/logo-react-icon.png';
+import node from '/pngwing.com.png';
+import express from '/express-fi.png';
+import mongodb from '/mongodb-fi.png';
+import jwt from '/jwt-fin.png';
+import firebase from '/firebase-fin.png';
+import github from '/github-logo.png';
 import Aos from 'aos';
 import 'aos/dist/aos.css';
 
@@ -23,20 +23,17 @@ const Resume = () => {
 		Aos.init();
 	}, []);
 	return (
-		<div id="resume" className="bg-[#22252C]">
+		<div id="resume">
 			<div>
 				<div>
-					<SectionTitle
-						title="summary"
-						upperTitle="Resume"
-					></SectionTitle>
+					<SectionTitle upperTitle="Resume"></SectionTitle>
 
-					<div className="px-20 text-white">
+					<div className="px-20 ">
 						<h2 className="text-5xl text-gradient py-5 mb-5 font-bold">
-							My Education
+							Education
 						</h2>
 						<div data-aos="fade-down" className="border p-10">
-							<h5 className="bg-sky-300 px-2 text-2xl w-[130px] text-white rounded-md">
+							<h5 className="bg-sky-300 px-2 text-2xl w-[133px]  rounded-md">
 								2015-2019
 							</h5>
 							<h4 className="text-3xl py-2">Bachelor of Arts</h4>
@@ -52,99 +49,92 @@ const Resume = () => {
 				</div>
 
 				<div className="px-20 pb-10">
-					<h2 className="text-5xl my-5 text-white pt-5 font-bold">
-						My Skills
-					</h2>
+					<h2 className="text-5xl my-5 pt-5 font-bold">Skills</h2>
 				</div>
 				<div className="md:mx-20">
-					<div className="md:flex md:justify-around justify-between items-center mb-3">
+					<div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 gap-5 mb-3">
 						<img
 							data-aos="fade-down"
 							data-aos-duration="100"
-							className="w-44 h-44 border-2 p-5 rounded-full hover:border-[15px] duration-300"
+							className="w-40 h-40 rounded-full shadow-lg"
 							src={html}
 							alt=""
 						/>
 						<img
 							data-aos="fade-down"
 							data-aos-duration="200"
-							className="w-44 h-44 border-2 p-5 rounded-full hover:border-[15px] duration-300"
+							className="w-40 h-40 rounded-full shadow-lg"
 							src={css}
 							alt=""
 						/>
 						<img
 							data-aos="fade-down"
 							data-aos-duration="300"
-							className="w-44 h-44 border-2 p-5 rounded-full hover:border-[15px] duration-300"
+							className="w-40 h-40 rounded-full shadow-lg"
 							src={Bootstrap}
 							alt=""
 						/>
-
 						<img
 							data-aos="fade-down"
 							data-aos-duration="400"
-							className="w-44 h-44 border-2 p-5 rounded-full hover:border-[15px] duration-300"
+							className="w-40 h-40 rounded-full shadow-lg"
 							src={tailwind}
 							alt=""
 						/>
 						<img
 							data-aos="fade-down"
 							data-aos-duration="500"
-							className="w-44 h-44 border-2 p-5 rounded-full hover:border-[15px] duration-300"
+							className="w-40 h-40 rounded-full shadow-lg"
 							src={javascript}
 							alt=""
 						/>
 						<img
 							data-aos="fade-down"
 							data-aos-duration="600"
-							className="w-44 h-44 border-2 p-5 rounded-full hover:border-[15px] duration-300"
+							className="w-36 h-36 rounded-full shadow-lg"
 							src={react}
 							alt=""
 						/>
-					</div>
-
-					<div className="md:flex justify-between items-center">
 						<img
 							data-aos="fade-up"
 							data-aos-duration="600"
-							className="w-44 h-44 border-2 p-5 rounded-full hover:border-[15px] duration-300"
+							className="w-36 h-36 rounded-full shadow-lg"
 							src={node}
 							alt=""
 						/>
 						<img
 							data-aos="fade-up"
 							data-aos-duration="500"
-							className="w-44 h-44 border-2 p-5 rounded-full hover:border-[15px] duration-300"
-							src={mongodb}
+							className="w-36 h-36 rounded-full shadow-lg"
+							src={express}
 							alt=""
 						/>
 						<img
 							data-aos="fade-up"
 							data-aos-duration="400"
-							className="w-44 h-44 border-2 p-5 rounded-full hover:border-[15px] duration-300"
-							src={express}
+							className="w-36 h-36 rounded-full shadow-lg"
+							src={mongodb}
 							alt=""
 						/>
-
 						<img
 							data-aos="fade-up"
 							data-aos-duration="300"
-							className="w-44 h-44 border-2 p-5 rounded-full hover:border-[15px] duration-300"
-							src={jwt}
-							alt=""
-						/>
-						<img
-							data-aos="fade-up"
-							data-aos-duration="200"
-							className="w-44 h-44 border-2 p-5 rounded-full hover:border-[15px] duration-300"
+							className="w-36 h-36 rounded-full shadow-lg"
 							src={firebase}
 							alt=""
 						/>
 						<img
 							data-aos="fade-up"
-							data-aos-duration="100"
-							className="w-44 h-44 border-2 p-5 rounded-full hover:border-[15px] duration-300"
+							data-aos-duration="200"
+							className="w-36 h-36 rounded-full shadow-lg"
 							src={github}
+							alt=""
+						/>
+						<img
+							data-aos="fade-up"
+							data-aos-duration="100"
+							className="w-36 h-36 rounded-full shadow-lg"
+							src={jwt}
 							alt=""
 						/>
 					</div>

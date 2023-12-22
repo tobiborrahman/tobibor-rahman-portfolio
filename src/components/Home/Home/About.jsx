@@ -37,7 +37,7 @@ const About = () => {
 							been the industry's standard dummy text ever when an
 							unknown printer took a galley.
 						</p>
-						<button className="px-6 py-2 border-[.5px] text-[#F59E0B] border-[#F59E0B] rounded-md mt-5 ml-2  bg-[#FDF1DB] hover:bg-[#F59E0B] hover:text-white duration-500">
+						<button className="px-6 py-2 border-[.5px] text-[#F59E0B] border-[#F59E0B] rounded-md mt-5  bg-[#FDF1DB] hover:bg-[#F59E0B] hover:text-white duration-500">
 							See Works
 						</button>
 					</div>
