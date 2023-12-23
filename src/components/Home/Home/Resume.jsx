@@ -28,11 +28,14 @@ const Resume = () => {
 				<div>
 					<SectionTitle upperTitle="Resume"></SectionTitle>
 
-					<div className="px-20 ">
-						<h2 className="text-5xl text-gradient py-5 mb-5 font-bold">
+					<div className="px-3 md:px-20">
+						<h2 className="text-3xl md:text-5xl text-gradient md:py-5 mb-5 font-bold">
 							Education
 						</h2>
-						<div data-aos="fade-down" className="border p-10">
+						<div
+							data-aos="fade-down"
+							className="border p-3 md:p-10 rounded"
+						>
 							<h5 className="bg-sky-300 px-2 text-2xl w-[133px]  rounded-md">
 								2015-2019
 							</h5>
@@ -48,10 +51,12 @@ const Resume = () => {
 					</div>
 				</div>
 
-				<div className="px-20 pb-10">
-					<h2 className="text-5xl my-5 pt-5 font-bold">Skills</h2>
+				<div className="px-3 md:px-20 pb-5 md:pb-10">
+					<h2 className="text-3xl md:text-5xl my-5 pt-5 font-bold">
+						Skills
+					</h2>
 				</div>
-				<div className="md:mx-20">
+				<div className="mx-3 md:mx-20">
 					<div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 gap-5 mb-3">
 						<img
 							data-aos="fade-down"
@@ -141,7 +146,7 @@ const Resume = () => {
 				</div>
 				<div className="flex justify-center items-center">
 					<a
-						className="py-2 my-10 px-5 bg-gradient-to-r from-[#00F29C] to-[#07F7F2] border rounded-full text-xl flex justify-center items-center"
+						className="px-6 py-2 mb-5 border-[.5px] text-[#F59E0B] border-[#F59E0B] rounded-md mt-5 ml-2  bg-[#FDF1DB] hover:bg-[#F59E0B] hover:text-white duration-500 flex justify-center items-center"
 						href="../../../public/resume.pdf"
 						download="final resume.pdf"
 					>

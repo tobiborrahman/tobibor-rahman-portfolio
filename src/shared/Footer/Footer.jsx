@@ -7,11 +7,7 @@ const Footer = () => {
 		<footer className="bg-black text-gray-300 ">
 			<div className="container mx-auto flex flex-col md:flex-row items-center justify-between px-20 mb-5 md:mb-0">
 				<div className="flex items-center justify-center md:justify-start space-x-4">
-					<img
-						className="h-56 w-56 bg-transparent"
-						src={logo}
-						alt="Logo"
-					/>
+					<h1>TOBIBOR.</h1>
 				</div>
 				<div className="space-x-4 text-center mt-4 md:mt-0">
 					<h4 className="text-2xl font-semibold">Address</h4>

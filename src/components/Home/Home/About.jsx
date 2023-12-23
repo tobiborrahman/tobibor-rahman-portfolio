@@ -24,7 +24,7 @@ const About = () => {
 						<h3 className="text-2xl mb-5 font-bold">
 							I am a passionate Web Designer and Developer
 						</h3>
-						<p className="text-justify text-gray-400">
+						<p className=" text-gray-400">
 							I help you build brand for your business at an
 							affordable price. Thousands of clients have procured
 							exceptional results while working with our dedicated
