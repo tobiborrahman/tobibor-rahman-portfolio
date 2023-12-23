@@ -24,12 +24,11 @@ const Resume = () => {
 	}, []);
 	return (
 		<div id="resume" className="bg-[#F9FAFB]">
-			<div>
+			<SectionTitle upperTitle="Resume"></SectionTitle>
+			<div className="pt-7">
 				<div>
-					<SectionTitle upperTitle="Resume"></SectionTitle>
-
 					<div className="px-3 md:px-20">
-						<h2 className="text-3xl md:text-5xl text-gradient md:pt-16 mb-5 font-bold">
+						<h2 className="text-xl md:text-3xl text-gradient md:pt-16 mb-5 font-bold">
 							Education
 						</h2>
 						<div
@@ -52,7 +51,7 @@ const Resume = () => {
 				</div>
 
 				<div className="px-3 md:px-20 pb-5 md:pb-5">
-					<h2 className="text-3xl md:text-5xl  pt-5 font-bold">
+					<h2 className="text-3xl text-center md:text-left md:text-5xl  py-5 md:py-10 font-bold">
 						Skills
 					</h2>
 				</div>

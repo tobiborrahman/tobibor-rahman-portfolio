@@ -36,7 +36,8 @@ const Review = () => {
 		};
 	}, []);
 	return (
-		<>
+		<div className="container px-20 py-20">
+			<SectionTitle upperTitle="clients review" />
 			<Swiper
 				spaceBetween={30}
 				slidesPerView={
@@ -48,12 +49,8 @@ const Review = () => {
 					delay: 2500,
 					disableOnInteraction: false,
 				}}
-				// pagination={{
-				// 	clickable: true,
-				// }}
-				// navigation={true}
 				modules={[Autoplay]}
-				className="mySwiper pb-20"
+				className="mySwiper"
 			>
 				<SwiperSlide className="w-[400px] pt-28">
 					<div className="p-6 bg-white arrow-tooltip">
@@ -183,72 +180,8 @@ const Review = () => {
 						</div>
 					</div>
 				</SwiperSlide>
-				<SwiperSlide className="w-[400px] pt-28">
-					<div className="p-6 bg-white arrow-tooltip">
-						<MdFormatQuote className="text-[#ffb700] text-6xl" />
-						<p>
-							Obviously I am a Web Designer. Web Developer with
-							over 7 years of experience. Experienced with all
-							stages of the development.
-						</p>
-						<Rating
-							style={{ maxWidth: 100, padding: '15px 0' }}
-							value={rating}
-							onChange={setRating}
-							itemStyles={myStyles}
-						/>
-					</div>
-					<div className="flex justify-center items-center">
-						<div className="">
-							<img
-								className="w-20 ml-7 h-20 mt-3"
-								src={css}
-								alt=""
-							/>
-
-							<div className="text-center">
-								<h5 className="text-black font-medium">
-									Tobibor Rahman
-								</h5>
-								<p className="text-gray-500 ">Manager</p>
-							</div>
-						</div>
-					</div>
-				</SwiperSlide>
-				<SwiperSlide className="w-[400px] pt-28">
-					<div className="p-6 bg-white arrow-tooltip">
-						<MdFormatQuote className="text-[#ffb700] text-6xl" />
-						<p>
-							Obviously I am a Web Designer. Web Developer with
-							over 7 years of experience. Experienced with all
-							stages of the development.
-						</p>
-						<Rating
-							style={{ maxWidth: 100, padding: '15px 0' }}
-							value={rating}
-							onChange={setRating}
-							itemStyles={myStyles}
-						/>
-					</div>
-					<div className="flex justify-center items-center">
-						<div className="">
-							<img
-								className="w-20 ml-7 h-20 mt-3"
-								src={css}
-								alt=""
-							/>
-
-							<div className="text-center">
-								<h5 className="text-black font-medium">
-									Tobibor Rahman
-								</h5>
-								<p className="text-gray-500 ">Manager</p>
-							</div>
-						</div>
-					</div>
-				</SwiperSlide>
 			</Swiper>
-		</>
+		</div>
 	);
 };
 
