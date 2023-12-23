@@ -1,9 +1,9 @@
 import React from 'react';
 import { useEffect, useRef } from 'react';
 import SectionTitle from '../../../shared/SectionTitle/SectionTitle';
-import img1 from '../../../../public/toy-market-network.png';
-import img2 from '../../../../public/project-2.png';
-import img3 from '../../../../public/project-3.png';
+import img1 from '../../../../public/motion-mingle.png';
+import img2 from '../../../../public/magical-music.png';
+import img3 from '../../../../public/chef-world.png';
 import { FaArrowRight } from 'react-icons/fa';
 import Aos from 'aos';
 import 'aos/dist/aos.css';
@@ -26,18 +26,18 @@ const Portfolio = () => {
 	};
 
 	return (
-		<div className="bg-[#313741]">
+		<div className="bg-[#F9FAFB]">
 			<div id="portfolio">
-				<SectionTitle title="portfolio" upperTitle="my work" />
+				<SectionTitle upperTitle="my work & projects" />
 
-				<div className="md:flex justify-between px-20 pb-28">
+				<div className="md:flex justify-between gap-7 px-3 md:px-20 py-5 md:py-20">
 					<div
 						data-aos="flip-right"
-						className="card card-compact md:w-[350px]  bg-gray-300 shadow-xl"
+						className="mb-5 shadow rounded-lg shadow-gray-200 hover:shadow-lg transition duration-300"
 					>
 						<figure>
 							<img
-								className="overflow-hidden object-cover object-top hover:object-bottom w-full h-[300px] duration-1000"
+								className="overflow-hidden rounded-t-lg object-cover object-top hover:object-bottom w-full h-[300px] duration-1000"
 								src={img2}
 								alt="Shoes"
 							/>
@@ -74,11 +74,11 @@ const Portfolio = () => {
 					</div>
 					<div
 						data-aos="flip-down"
-						className="card card-compact md:w-[350px] bg-gray-300 shadow-xl"
+						className=" mb-5 shadow rounded-lg shadow-gray-200 hover:shadow-lg transition duration-300"
 					>
 						<figure>
 							<img
-								className="overflow-hidden object-cover object-top hover:object-bottom w-full h-[300px] duration-1000"
+								className="overflow-hidden rounded-t-lg object-cover object-top hover:object-bottom w-full h-[300px] duration-1000"
 								src={img1}
 								alt="Shoes"
 							/>
@@ -114,11 +114,11 @@ const Portfolio = () => {
 					</div>
 					<div
 						data-aos="flip-left"
-						className="card card-compact md:w-[350px] bg-gray-300 shadow-xl"
+						className=" mb-5 shadow rounded-lg shadow-gray-200 hover:shadow-lg transition duration-300"
 					>
 						<figure>
 							<img
-								className="overflow-hidden object-cover object-top hover:object-bottom w-full h-[300px] duration-1000"
+								className="overflow-hidden rounded-t-lg object-cover object-top hover:object-bottom w-full h-[300px] duration-1000"
 								src={img3}
 								alt="Shoes"
 							/>

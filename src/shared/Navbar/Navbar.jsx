@@ -25,14 +25,14 @@ const Navbar = () => {
 
 	return (
 		<div
-			className={`flex justify-between items-center fixed w-full ${
+			className={`flex justify-between items-center fixed top-0 w-full ${
 				scrolling ? 'bg-white shadow-sm' : 'bg-transparent'
 			} md:px-20 z-50 md:opacity-100 py-5 transition-all duration-300`}
 		>
-			<div className="navbar-start">
+			<div>
 				<h1 className="text-3xl font-bold">TOBIBOR.</h1>
 			</div>
-			<div className="navbar-center hidden lg:flex">
+			<div className="hidden lg:flex">
 				<ul className="gap-5 menu-horizontal px-1 font-semibold">
 					<li>
 						<Link
