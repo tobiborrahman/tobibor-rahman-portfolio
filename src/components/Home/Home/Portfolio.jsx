@@ -14,15 +14,15 @@ const Portfolio = () => {
 	}, []);
 
 	const handleClick = () => {
-		window.open('https://toy-market-network.web.app/');
+		window.open('https://final-photography-client.web.app/');
 	};
 
 	const handleClick2 = () => {
-		window.open('https://the-chef-world.web.app/');
+		window.open('https://motion-mingle.web.app/');
 	};
 
 	const handleClick3 = () => {
-		window.open('https://final-photography-client.web.app/');
+		window.open('https://the-chef-world.web.app/');
 	};
 
 	return (
@@ -30,7 +30,7 @@ const Portfolio = () => {
 			<div id="portfolio">
 				<SectionTitle upperTitle="my work & projects" />
 
-				<div className="md:flex justify-between gap-7 px-3 md:px-20 py-5 md:py-20">
+				<div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-7 px-3 md:px-20 py-5 md:py-20">
 					<div
 						data-aos="flip-right"
 						className="mb-5 shadow rounded-lg shadow-gray-200 hover:shadow-lg transition duration-300"
@@ -43,29 +43,9 @@ const Portfolio = () => {
 							/>
 						</figure>
 						<div className="card-body">
-							<h2 className="card-title">Key Features!</h2>
-							<p>
-								On this website, you will come to know about the
-								famous chefs of United States.
-							</p>
-							<p>
-								You can subscribe to get notifications about
-								their new recipe
-							</p>
-							<p>
-								You can know about their famous recipes and add
-								them to your favorite list.
-							</p>
-
-							<h2 className="card-title">Technologies</h2>
-							<p>
-								JavaScript, React JS, Node JS, Express JS,
-								MongoDB, Firebase.
-							</p>
-
 							<button
 								onClick={handleClick2}
-								className="uppercase text-md font-bold flex items-center text-blue-500"
+								className="uppercase text-md font-bold flex items-center text-[#F59E0B]"
 							>
 								view details{' '}
 								<FaArrowRight className="ml-2"></FaArrowRight>
@@ -84,28 +64,9 @@ const Portfolio = () => {
 							/>
 						</figure>
 						<div className="card-body">
-							<h2 className="card-title">Key Features!</h2>
-							<p>
-								On this website, you will come to know about the
-								famous chefs of United States.
-							</p>
-							<p>
-								You can subscribe to get notifications about
-								their new recipe
-							</p>
-							<p>
-								You can know about their famous recipes and add
-								them to your favorite list.
-							</p>
-
-							<h2 className="card-title">Technologies</h2>
-							<p>
-								JavaScript, React JS, Node JS, Express JS,
-								MongoDB, Firebase.
-							</p>
 							<button
 								onClick={handleClick}
-								className="uppercase flex text-md font-bold items-center text-blue-500"
+								className="uppercase flex text-md font-bold items-center text-[#F59E0B]"
 							>
 								view details{' '}
 								<FaArrowRight className="ml-2"></FaArrowRight>
@@ -124,28 +85,9 @@ const Portfolio = () => {
 							/>
 						</figure>
 						<div className="card-body">
-							<h2 className="card-title">Key Features!</h2>
-							<p>
-								On this website, you will come to know about the
-								famous chefs of United States.
-							</p>
-							<p>
-								You can subscribe to get notifications about
-								their new recipe
-							</p>
-							<p>
-								You can know about their famous recipes and add
-								them to your favorite list.
-							</p>
-
-							<h2 className="card-title">Technologies</h2>
-							<p>
-								JavaScript, React JS, Node JS, Express JS,
-								MongoDB, Firebase.
-							</p>
 							<button
 								onClick={handleClick3}
-								className="uppercase flex text-md font-bold items-center text-blue-500"
+								className="uppercase flex text-md font-bold items-center text-[#F59E0B]"
 							>
 								view details{' '}
 								<FaArrowRight className="ml-2"></FaArrowRight>

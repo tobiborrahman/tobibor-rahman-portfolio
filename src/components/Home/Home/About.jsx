@@ -21,7 +21,7 @@ const About = () => {
 						alt=""
 					/>
 					<div data-aos="fade-right" className="md:w-[800px]">
-						<h3 className="text-2xl mb-5 font-bold">
+						<h3 className="text-2xl mb-5 mt-8 md:mt-0 font-bold">
 							I am a passionate Web Designer and Developer
 						</h3>
 						<p className=" text-gray-400">

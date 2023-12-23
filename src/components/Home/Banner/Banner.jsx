@@ -14,10 +14,10 @@ const Banner = () => {
 
 	const [text] = useTypewriter({
 		words: [
-			'a Web Designer',
-			'a Front-End Developer',
-			'a Back-End Developer',
-			'a Full Stack Developer',
+			'Web Designer',
+			'Front-End Developer',
+			'Back-End Developer',
+			'Full Stack Developer',
 		],
 		loop: {},
 		typeSpeed: 40,
@@ -30,7 +30,7 @@ const Banner = () => {
 				<Navbar />
 				<div
 					id="banner"
-					className="md:flex justify-between items-center px-5 md:px-20 pt-10 md:pt-48 pb-20"
+					className="md:flex justify-between items-center px-5 md:px-20 pt-28 md:pt-48 pb-20"
 				>
 					<div className="flex justify-center items-center mb-20">
 						<div data-aos="fade-right">
@@ -47,7 +47,7 @@ const Banner = () => {
 								</h1>
 								<h3 className="text-xl flex justify-right items-center md:text-5xl font-bold">
 									<span className="text-3xl text-[#F59E0B] md:text-4xl font-bold">
-										{text}
+										a {text}
 									</span>
 									<span>
 										<Cursor
