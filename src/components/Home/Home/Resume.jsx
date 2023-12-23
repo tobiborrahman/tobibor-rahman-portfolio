@@ -36,11 +36,11 @@ const Resume = () => {
 							data-aos="fade-down"
 							className="border p-3 md:p-10 rounded"
 						>
-							<h5 className="bg-sky-300 px-2 text-2xl w-[133px]  rounded-md">
+							<h3 className="text-black text-xl rounded-md">
 								2015-2019
-							</h5>
-							<h4 className="text-3xl py-2">Bachelor of Arts</h4>
-							<p className="text-red-700 text-3xl">
+							</h3>
+							<h4 className="text-3xl">Bachelor of Arts</h4>
+							<p className="text-[#F59E0B] text-3xl">
 								National University
 							</p>
 							<p className="text-xl">
@@ -61,84 +61,84 @@ const Resume = () => {
 						<img
 							data-aos="fade-down"
 							data-aos-duration="100"
-							className="w-40 h-40 rounded-full shadow-lg"
+							className="w-40 h-40  hover:shadow-lg"
 							src={html}
 							alt=""
 						/>
 						<img
 							data-aos="fade-down"
 							data-aos-duration="200"
-							className="w-40 h-40 rounded-full shadow-lg"
+							className="w-40 h-40  hover:shadow-lg"
 							src={css}
 							alt=""
 						/>
 						<img
 							data-aos="fade-down"
 							data-aos-duration="300"
-							className="w-40 h-40 rounded-full shadow-lg"
+							className="w-40 h-40 p-2 hover:shadow-lg"
 							src={Bootstrap}
 							alt=""
 						/>
 						<img
 							data-aos="fade-down"
 							data-aos-duration="400"
-							className="w-40 h-40 rounded-full shadow-lg"
+							className="w-40 h-40  hover:shadow-lg"
 							src={tailwind}
 							alt=""
 						/>
 						<img
 							data-aos="fade-down"
 							data-aos-duration="500"
-							className="w-40 h-40 rounded-full shadow-lg"
+							className="w-40 h-40  hover:shadow-lg"
 							src={javascript}
 							alt=""
 						/>
 						<img
 							data-aos="fade-down"
 							data-aos-duration="600"
-							className="w-36 h-36 rounded-full shadow-lg"
+							className="w-36 h-36  hover:shadow-lg"
 							src={react}
 							alt=""
 						/>
 						<img
 							data-aos="fade-up"
 							data-aos-duration="600"
-							className="w-36 h-36 rounded-full shadow-lg"
+							className="w-36 h-36  hover:shadow-lg"
 							src={node}
 							alt=""
 						/>
 						<img
 							data-aos="fade-up"
 							data-aos-duration="500"
-							className="w-36 h-36 rounded-full shadow-lg"
+							className="w-36 h-36  hover:shadow-lg"
 							src={express}
 							alt=""
 						/>
 						<img
 							data-aos="fade-up"
 							data-aos-duration="400"
-							className="w-36 h-36 rounded-full shadow-lg"
+							className="w-36 h-36  hover:shadow-lg"
 							src={mongodb}
 							alt=""
 						/>
 						<img
 							data-aos="fade-up"
 							data-aos-duration="300"
-							className="w-36 h-36 rounded-full shadow-lg"
+							className="w-36 h-36  hover:shadow-lg"
 							src={firebase}
 							alt=""
 						/>
 						<img
 							data-aos="fade-up"
 							data-aos-duration="200"
-							className="w-36 h-36 rounded-full shadow-lg"
+							className="w-36 h-36  hover:shadow-lg"
 							src={github}
 							alt=""
 						/>
 						<img
 							data-aos="fade-up"
 							data-aos-duration="100"
-							className="w-36 h-36 rounded-full shadow-lg"
+							className="w-36 h-36  hover:shadow-lg"
 							src={jwt}
 							alt=""
 						/>
