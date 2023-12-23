@@ -6,6 +6,7 @@ import Resume from './Resume';
 import Portfolio from './Portfolio';
 import Contact from './Contact';
 import { Helmet } from 'react-helmet';
+import Freelancer from './Freelancer';
 
 const Home = () => {
 	return (
@@ -16,6 +17,7 @@ const Home = () => {
 			<Banner></Banner>
 			<About></About>
 			<Services></Services>
+			<Freelancer />
 			<Resume></Resume>
 			<Portfolio></Portfolio>
 			<Contact></Contact>

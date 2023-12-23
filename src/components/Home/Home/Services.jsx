@@ -7,9 +7,12 @@ import 'aos/dist/aos.css';
 import { PiDesktopLight } from 'react-icons/pi';
 import { IoIosArrowRoundForward } from 'react-icons/io';
 
-import img1 from '../../../../public/web-des.webp';
-import img2 from '../../../../public/web-development.webp';
-import img3 from '../../../../public/full-stack.jpg';
+import { IoServerOutline } from 'react-icons/io5';
+import { HiOutlineCog8Tooth } from 'react-icons/hi2';
+import { SiWebcomponentsdotorg } from 'react-icons/si';
+import { CiMobile2 } from 'react-icons/ci';
+import { MdOutlineHdrAuto } from 'react-icons/md';
+import { MdOutlineAutoAwesomeMotion } from 'react-icons/md';
 
 const Services = () => {
 	useEffect(() => {
@@ -26,17 +29,17 @@ const Services = () => {
 						className="px-6 py-10 shadow shadow-gray-200 hover:shadow-lg dark:shadow-gray-800 dark:hover:shadow-gray-700 transition duration-500 rounded-2xl bg-white dark:bg-slate-900 md:h-[290px]"
 					>
 						<p>
-							<PiDesktopLight className="text-5xl text-[#cd9777] font-thin" />
+							<PiDesktopLight className="text-5xl text-[#F59E0B] font-thin" />
 						</p>
-						<h4 className="text-xl pt-5 hover:text-[#cd9777]">
-							UI/Ux Designer
+						<h4 className="text-xl pt-5 hover:text-[#F59E0B]">
+							Web Developer
 						</h4>
 						<p className="text-md py-5 text-[#94A3B8]">
 							The phrasal sequence of the is now so that many
 							campaign and benefit
 						</p>
 
-						<button className="flex justify-center items-center hover:text-[#cd9777] duration-500">
+						<button className="flex justify-center items-center hover:text-[#F59E0B] duration-500">
 							Read More <IoIosArrowRoundForward className="" />
 						</button>
 					</div>
@@ -45,17 +48,17 @@ const Services = () => {
 						className="px-6 py-10 shadow shadow-gray-200 hover:shadow-lg dark:shadow-gray-800 dark:hover:shadow-gray-700 transition duration-500 rounded-2xl bg-white dark:bg-slate-900 h-[290px]"
 					>
 						<p>
-							<PiDesktopLight className="text-5xl text-[#cd9777] font-thin" />
+							<CiMobile2 className="text-5xl text-[#F59E0B] font-thin" />
 						</p>
-						<h4 className="text-xl pt-5 hover:text-[#cd9777]">
-							UI/Ux Designer
+						<h4 className="text-xl pt-5 hover:text-[#F59E0B]">
+							Responsiveness
 						</h4>
 						<p className="text-md py-5 text-[#94A3B8]">
 							The phrasal sequence of the is now so that many
 							campaign and benefit
 						</p>
 
-						<button className="flex justify-center items-center hover:text-[#cd9777] duration-500">
+						<button className="flex justify-center items-center hover:text-[#F59E0B] duration-500">
 							Read More <IoIosArrowRoundForward className="" />
 						</button>
 					</div>
@@ -64,17 +67,17 @@ const Services = () => {
 						className="px-6 py-10 shadow shadow-gray-200 hover:shadow-lg dark:shadow-gray-800 dark:hover:shadow-gray-700 transition duration-500 rounded-2xl bg-white dark:bg-slate-900 h-[290px]"
 					>
 						<p>
-							<PiDesktopLight className="text-5xl text-[#cd9777] font-thin" />
+							<MdOutlineHdrAuto className="text-5xl text-[#F59E0B] font-thin" />
 						</p>
-						<h4 className="text-xl pt-5 hover:text-[#cd9777]">
-							UI/Ux Designer
+						<h4 className="text-xl pt-5 hover:text-[#F59E0B]">
+							Authentication
 						</h4>
 						<p className="text-md py-5 text-[#94A3B8]">
 							The phrasal sequence of the is now so that many
 							campaign and benefit
 						</p>
 
-						<button className="flex justify-center items-center hover:text-[#cd9777] duration-500">
+						<button className="flex justify-center items-center hover:text-[#F59E0B] duration-500">
 							Read More <IoIosArrowRoundForward className="" />
 						</button>
 					</div>
@@ -83,17 +86,17 @@ const Services = () => {
 						className="px-6 py-10 shadow shadow-gray-200 hover:shadow-lg dark:shadow-gray-800 dark:hover:shadow-gray-700 transition duration-500 rounded-2xl bg-white dark:bg-slate-900 h-[290px]"
 					>
 						<p>
-							<PiDesktopLight className="text-5xl text-[#cd9777] font-thin" />
+							<IoServerOutline className="text-5xl text-[#F59E0B] font-thin" />
 						</p>
-						<h4 className="text-xl pt-5 hover:text-[#cd9777]">
-							UI/Ux Designer
+						<h4 className="text-xl pt-5 hover:text-[#F59E0B]">
+							Database Designer
 						</h4>
 						<p className="text-md py-5 text-[#94A3B8]">
 							The phrasal sequence of the is now so that many
 							campaign and benefit
 						</p>
 
-						<button className="flex justify-center items-center hover:text-[#cd9777] duration-500">
+						<button className="flex justify-center items-center hover:text-[#F59E0B] duration-500">
 							Read More <IoIosArrowRoundForward className="" />
 						</button>
 					</div>
@@ -102,17 +105,17 @@ const Services = () => {
 						className="px-6 py-10 shadow shadow-gray-200 hover:shadow-lg dark:shadow-gray-800 dark:hover:shadow-gray-700 transition duration-500 rounded-2xl bg-white dark:bg-slate-900 h-[290px]"
 					>
 						<p>
-							<PiDesktopLight className="text-5xl text-[#cd9777] font-thin" />
+							<HiOutlineCog8Tooth className="text-5xl text-[#F59E0B] font-thin" />
 						</p>
-						<h4 className="text-xl pt-5 hover:text-[#cd9777]">
-							UI/Ux Designer
+						<h4 className="text-xl pt-5 hover:text-[#F59E0B]">
+							SEO Expert
 						</h4>
 						<p className="text-md py-5 text-[#94A3B8]">
 							The phrasal sequence of the is now so that many
 							campaign and benefit
 						</p>
 
-						<button className="flex justify-center items-center hover:text-[#cd9777] duration-500">
+						<button className="flex justify-center items-center hover:text-[#F59E0B] duration-500">
 							Read More <IoIosArrowRoundForward className="" />
 						</button>
 					</div>
@@ -121,9 +124,9 @@ const Services = () => {
 						className="px-6 py-10 shadow shadow-gray-200 hover:shadow-lg dark:shadow-gray-800 dark:hover:shadow-gray-700 transition duration-500 rounded-2xl bg-white dark:bg-slate-900 h-[290px]"
 					>
 						<p>
-							<PiDesktopLight className="text-5xl text-[#cd9777] font-thin" />
+							<MdOutlineAutoAwesomeMotion className="text-5xl text-[#F59E0B] font-thin" />
 						</p>
-						<h4 className="text-xl pt-5 hover:text-[#cd9777]">
+						<h4 className="text-xl pt-5 hover:text-[#F59E0B]">
 							UI/Ux Designer
 						</h4>
 						<p className="text-md py-5 text-[#94A3B8]">
@@ -131,7 +134,7 @@ const Services = () => {
 							campaign and benefit
 						</p>
 
-						<button className="flex justify-center items-center hover:text-[#cd9777] duration-500">
+						<button className="flex justify-center items-center hover:text-[#F59E0B] duration-500">
 							Read More <IoIosArrowRoundForward className="" />
 						</button>
 					</div>

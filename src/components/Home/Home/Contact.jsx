@@ -17,14 +17,14 @@ const Contact = () => {
 	}, []);
 
 	return (
-		<div className="">
+		<div className="bg-[#F9FAFB]">
 			<div id="contact">
 				<SectionTitle upperTitle="get in touch"></SectionTitle>
 
 				<div className="md:flex items-center z-5 px-3 md:px-20 py-5 md:py-20">
 					<div data-aos="fade-right" className="md:w-1/4 mr-20">
-						<div className="flex text-xl">
-							<TbPhone className="text-[25px]" />
+						<div className="flex">
+							<TbPhone className="text-[20px]" />
 							<div className="ml-7">
 								<h4 className="text-black font-medium">
 									Phone
@@ -34,10 +34,10 @@ const Contact = () => {
 						</div>
 
 						<div className="flex py-5">
-							<div className="text-[25px]">
+							<div className="text-[20px]">
 								<MdMailOutline />
 							</div>
-							<div className=" text-xl ml-7">
+							<div className="ml-7">
 								<h4 className="text-black font-medium">
 									Email
 								</h4>
@@ -46,8 +46,8 @@ const Contact = () => {
 								</p>
 							</div>
 						</div>
-						<div className="flex text-xl">
-							<div className="text-[25px]">
+						<div className="flex">
+							<div className="text-[20px]">
 								<HiOutlineLocationMarker />
 							</div>
 							<div className=" ml-7">
@@ -60,7 +60,7 @@ const Contact = () => {
 							</div>
 						</div>
 					</div>
-					<div className="border rounded-md p-6 w-full">
+					<div className="border rounded-md p-6 w-full bg-white">
 						<form>
 							<div className="md:flex">
 								<input

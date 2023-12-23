@@ -7,30 +7,9 @@ import {
 	faFacebook,
 	faTwitter,
 } from '@fortawesome/free-brands-svg-icons';
-import { useEffect, useState } from 'react';
 import { faMessage } from '@fortawesome/free-regular-svg-icons';
-import { faArrowUp } from '@fortawesome/free-solid-svg-icons';
 
 const Footer = () => {
-	const [scrolling, setScrolling] = useState(false);
-
-	const scrollToTop = () => {
-		window.scrollTo(0, 0);
-	};
-
-	useEffect(() => {
-		const handleScroll = () => {
-			const isScrolled = window.scrollY > 600; // Change this value based on your needs
-			setScrolling(isScrolled);
-		};
-
-		window.addEventListener('scroll', handleScroll);
-
-		return () => {
-			window.removeEventListener('scroll', handleScroll);
-		};
-	}, []);
-
 	return (
 		<footer className="bg-[#192132] text-white py-5">
 			<div className="container mx-auto flex flex-col md:flex-row items-center justify-between px-20 mb-5 md:mb-0">
@@ -74,14 +53,6 @@ const Footer = () => {
 					></FontAwesomeIcon>
 				</div>
 			</div>
-			<a href="#" onClick={scrollToTop}>
-				<FontAwesomeIcon
-					icon={faArrowUp}
-					className={`fixed bottom-6 right-6 w-3 h-3 border-gray-800 bg-[#F59E0B] ${
-						scrolling ? '' : 'hidden'
-					} rounded-full p-[10px] text-white`}
-				></FontAwesomeIcon>
-			</a>
 		</footer>
 	);
 };
