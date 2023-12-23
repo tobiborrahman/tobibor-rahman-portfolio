@@ -67,7 +67,7 @@ const Banner = () => {
 									Hire Me
 								</button>
 								<a
-									className="px-6 py-2 border-[.5px] text-[#F59E0B] border-[#1d1b17] rounded-md mt-5 ml-2  bg-[#FDF1DB] hover:bg-[#F59E0B] hover:text-white duration-500"
+									className="px-6 py-2 border-[.5px] text-[#F59E0B] border-[#F59E0B] rounded-md mt-5 ml-2  bg-[#FDF1DB] hover:bg-[#F59E0B] hover:text-white duration-500"
 									href="../../../public/resume.pdf"
 									download="final resume.pdf"
 								>
