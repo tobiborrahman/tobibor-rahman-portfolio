@@ -1,15 +1,13 @@
 import React from 'react';
 import { useEffect, useRef } from 'react';
 import SectionTitle from '../../../shared/SectionTitle/SectionTitle';
-import {
-	FaFacebook,
-	FaGithub,
-	FaGoogle,
-	FaInstagram,
-	FaLinkedin,
-	FaMailBulk,
-	FaPhone,
-} from 'react-icons/fa';
+import { FaPhone, FaVoicemail } from 'react-icons/fa';
+
+import { TbPhone } from 'react-icons/tb';
+import { MdMailOutline } from 'react-icons/md';
+import { HiOutlineLocationMarker } from 'react-icons/hi';
+import { SiMaildotru } from 'react-icons/si';
+
 import Aos from 'aos';
 import 'aos/dist/aos.css';
 
@@ -19,76 +17,82 @@ const Contact = () => {
 	}, []);
 
 	return (
-		<div className="bg-[#22252C]">
+		<div className="">
 			<div id="contact">
-				<SectionTitle
-					title="contact"
-					upperTitle="get in touch"
-				></SectionTitle>
+				<SectionTitle upperTitle="get in touch"></SectionTitle>
 
-				<div className="md:flex items-center z-5 px-20">
-					<div
-						data-aos="fade-right"
-						className="md:w-1/4 mr-20 text-white"
-					>
-						<h2 className="text-5xl pb-5">Address</h2>
-						<p className="text-2xl pb-5">
-							Chandana Chowrasta, Gazipur
-						</p>
+				<div className="md:flex items-center z-5 px-20 py-20">
+					<div data-aos="fade-right" className="md:w-1/4 mr-20">
+						<div className="flex text-xl">
+							<TbPhone className="text-[25px]" />
+							<div className="ml-7">
+								<h4 className="text-black font-medium">
+									Phone
+								</h4>
+								<p className="text-gray-500">+880 1316433225</p>
+							</div>
+						</div>
 
-						<p className="flex items-center text-2xl">
-							<span>
-								<FaPhone className="mr-2"></FaPhone>
-							</span>
-							+8801316433225
-						</p>
-						<p className="flex items-center text-2xl">
-							<span>
-								<FaMailBulk className="mr-2"></FaMailBulk>
-							</span>
-							r.tobibor16@gmail.com
-						</p>
-
-						<h2 className="text-5xl py-5">Social</h2>
-						<div className="flex justify-between w-full">
-							<FaFacebook className="text-3xl duration-300 hover:text-blue-500" />
-							<FaInstagram className="text-3xl duration-300 hover:text-red-300" />
-							<FaLinkedin className="text-3xl duration-300 hover:text-blue-500" />
-							<FaGithub className="text-3xl duration-300 hover:text-black" />
-							<FaGoogle className="text-3xl duration-300 hover:text-yellow-500" />
+						<div className="flex py-5">
+							<div className="text-[25px]">
+								<MdMailOutline />
+							</div>
+							<div className=" text-xl ml-7">
+								<h4 className="text-black font-medium">
+									Email
+								</h4>
+								<p className="text-gray-500">
+									r.tobibor16@gmail.com
+								</p>
+							</div>
+						</div>
+						<div className="flex text-xl">
+							<div className="text-[25px]">
+								<HiOutlineLocationMarker />
+							</div>
+							<div className=" ml-7">
+								<h4 className="text-black font-medium">
+									Location
+								</h4>
+								<p className="text-gray-500">
+									Gazipur City, Dhaka, Bangladesh
+								</p>
+							</div>
 						</div>
 					</div>
-					<div className="md:w-3/4">
-						<h2 className="text-5xl mb-8  text-white">Hire Me</h2>
+					<div className="border rounded-md p-6 w-full">
+						{/* <h2 className="text-5xl mb-8">Hire Me</h2> */}
 						<form>
 							<div className="md:flex">
 								<input
 									data-aos="fade-right"
-									className="border mb-5 md:mb-0 w-full mr-4 pt-3 text-3xl p-3  rounded-xl"
+									className="py-2 mr-5 pl-3 rounded-md w-full border"
 									type="text"
 									placeholder="Name"
 								/>
 								<input
 									data-aos="fade-left"
-									className="border w-full text-3xl p-3  rounded-xl"
+									className="border rounded-md pl-3 w-full"
 									type="text"
 									placeholder="Email"
 								/>
 							</div>
+							<input
+								data-aos="fade-left"
+								className="py-2 border pl-3 rounded-md my-5 w-full"
+								type="text"
+								placeholder="Subject"
+							/>
 							<textarea
 								data-aos="fade-up"
-								className="border w-full mr-4 text-3xl p-2 h-[170px] rounded-xl mt-5"
+								className="border w-full pl-3 pt-3 rounded-md h-[100px]"
 								type="text"
 								placeholder="Tell Me More About The project"
 							/>
+							<button className="border px-6 py-2 rounded-md mt-5 text-white bg-[#F59E0B] hover:bg-[#D97706] duration-500">
+								Send Message
+							</button>
 						</form>
-					</div>
-				</div>
-				<div>
-					<div className="flex justify-center items-center">
-						<a className="py-3 bg-gradient-to-r my-10 from-[#00F29C] to-[#07F7F2] hover:bg-blue-500 text-white duration-300 px-7 text-xl border rounded-full  flex justify-center items-center">
-							Send Message
-						</a>
 					</div>
 				</div>
 			</div>
