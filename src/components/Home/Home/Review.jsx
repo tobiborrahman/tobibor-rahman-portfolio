@@ -19,10 +19,10 @@ const myStyles = {
 	inactiveFillColor: '#fbf1a9',
 };
 
-import man1 from '../../../../public/man-1.jpg';
-import man2 from '../../../../public/man-2.jpg';
-import man3 from '../../../../public/man-3.jpg';
-import man4 from '../../../../public/man-4.jpg';
+import man1 from '/man-1.jpg';
+import man2 from '/man-2.jpg';
+import man3 from '/man-3.jpg';
+import man4 from '/man-4.jpg';
 
 const Review = () => {
 	const [rating, setRating] = useState(5);
@@ -41,7 +41,7 @@ const Review = () => {
 		};
 	}, []);
 	return (
-		<div className="container px-20 py-20 bg-[#F9FAFB]">
+		<div className="container px-3 md:px-20 py-20 bg-[#F9FAFB]">
 			<SectionTitle upperTitle="clients review" />
 			<Swiper
 				spaceBetween={30}

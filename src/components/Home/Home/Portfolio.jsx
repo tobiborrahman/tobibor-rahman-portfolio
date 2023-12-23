@@ -1,7 +1,7 @@
 import React from 'react';
 import { useEffect, useRef } from 'react';
 import SectionTitle from '../../../shared/SectionTitle/SectionTitle';
-import img1 from '../../../../public/motion-mingle.png';
+import img1 from '../../../../public/motion-mingle.jpg';
 import img2 from '../../../../public/magical-music.png';
 import img3 from '../../../../public/chef-world.png';
 import { FaArrowRight } from 'react-icons/fa';
