@@ -4,10 +4,10 @@ const Freelancer = () => {
 	return (
 		<div className="bg-[#575C69] py-20">
 			<div className="text-center">
-				<h1 className="text-2xl text-white">
+				<h1 className="text-2xl text-white font-semibold capitalize">
 					I am available for freelancer project
 				</h1>
-				<p className="py-4">
+				<p className="py-4 text-gray-300">
 					Obviously I am a Web Designer. Web Developer with over 7
 					years of <br /> experience. Experienced with all stages of
 					the development.

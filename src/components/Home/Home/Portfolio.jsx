@@ -26,7 +26,7 @@ const Portfolio = () => {
 	};
 
 	return (
-		<div className="bg-[#F9FAFB]">
+		<div>
 			<div id="portfolio">
 				<SectionTitle upperTitle="my work & projects" />
 

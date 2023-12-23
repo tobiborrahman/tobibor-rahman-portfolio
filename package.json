@@ -17,6 +17,7 @@
 		"@fortawesome/free-solid-svg-icons": "^6.5.1",
 		"@fortawesome/react-fontawesome": "^0.2.0",
 		"@lottiefiles/react-lottie-player": "^3.5.3",
+		"@smastrom/react-rating": "^1.4.0",
 		"aos": "^2.3.4",
 		"framer-motion": "^10.12.18",
 		"hamburger-react": "^2.5.0",
@@ -29,6 +30,7 @@
 		"react-scroll": "^1.9.0",
 		"react-simple-typewriter": "^5.0.1",
 		"react-tsparticles": "^2.10.1",
+		"swiper": "^11.0.5",
 		"tsparticles": "^2.10.1"
 	},
 	"devDependencies": {

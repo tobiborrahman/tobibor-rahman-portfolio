@@ -17,3 +17,17 @@ body {
 .box {
 	box-shadow: -0.5px 5px 0px rgba(0, 0, 0, 0.1);
 }
+
+.arrow-tooltip {
+	filter: drop-shadow(rgba(0, 0, 0, 0.1) 0 0px 1px);
+}
+
+.arrow-tooltip:after {
+	border: 10px solid;
+	border-color: white transparent transparent;
+	content: '';
+	left: 50%;
+	margin-left: -10px;
+	position: absolute;
+	top: 100%;
+}

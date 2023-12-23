@@ -23,7 +23,7 @@ const Resume = () => {
 		Aos.init();
 	}, []);
 	return (
-		<div id="resume">
+		<div id="resume" className="bg-[#F9FAFB]">
 			<div>
 				<div>
 					<SectionTitle upperTitle="Resume"></SectionTitle>
