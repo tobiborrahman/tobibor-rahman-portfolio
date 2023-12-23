@@ -8,6 +8,7 @@ import Contact from './Contact';
 import { Helmet } from 'react-helmet';
 import Freelancer from './Freelancer';
 import Review from './Review';
+import ScrollTOTop from '../../../shared/Scroll/ScrollTOTop';
 
 const Home = () => {
 	return (
@@ -22,6 +23,7 @@ const Home = () => {
 			<Resume></Resume>
 			<Portfolio></Portfolio>
 			<Review />
+			<ScrollTOTop />
 			<Contact></Contact>
 		</div>
 	);
