@@ -19,6 +19,11 @@ const myStyles = {
 	inactiveFillColor: '#fbf1a9',
 };
 
+import man1 from '../../../../public/man-1.jpg';
+import man2 from '../../../../public/man-2.jpg';
+import man3 from '../../../../public/man-3.jpg';
+import man4 from '../../../../public/man-4.jpg';
+
 const Review = () => {
 	const [rating, setRating] = useState(5);
 
@@ -36,7 +41,7 @@ const Review = () => {
 		};
 	}, []);
 	return (
-		<div className="container px-20 py-20">
+		<div className="container px-20 py-20 bg-[#F9FAFB]">
 			<SectionTitle upperTitle="clients review" />
 			<Swiper
 				spaceBetween={30}
@@ -70,8 +75,8 @@ const Review = () => {
 					<div className="flex justify-center items-center">
 						<div className="">
 							<img
-								className="w-20 ml-7 h-20 mt-3"
-								src={css}
+								className="w-20 ml-7 h-20 mt-4 rounded-full"
+								src={man1}
 								alt=""
 							/>
 
@@ -102,8 +107,8 @@ const Review = () => {
 					<div className="flex justify-center items-center">
 						<div className="">
 							<img
-								className="w-20 ml-7 h-20 mt-3"
-								src={css}
+								className="w-20 ml-7 h-20 mt-4 rounded-full"
+								src={man2}
 								alt=""
 							/>
 
@@ -134,8 +139,8 @@ const Review = () => {
 					<div className="flex justify-center items-center">
 						<div className="">
 							<img
-								className="w-20 ml-7 h-20 mt-3"
-								src={css}
+								className="w-20 ml-7 h-20 mt-4 rounded-full"
+								src={man3}
 								alt=""
 							/>
 
@@ -166,8 +171,8 @@ const Review = () => {
 					<div className="flex justify-center items-center">
 						<div className="">
 							<img
-								className="w-20 ml-7 h-20 mt-3"
-								src={css}
+								className="w-20 ml-7 h-20 mt-4 rounded-full"
+								src={man4}
 								alt=""
 							/>
 
