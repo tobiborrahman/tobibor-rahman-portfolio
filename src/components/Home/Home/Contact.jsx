@@ -21,7 +21,7 @@ const Contact = () => {
 			<div id="contact">
 				<SectionTitle upperTitle="get in touch"></SectionTitle>
 
-				<div className="md:flex items-center z-5 px-20 py-20">
+				<div className="md:flex items-center z-5 px-3 md:px-20 py-5 md:py-20">
 					<div data-aos="fade-right" className="md:w-1/4 mr-20">
 						<div className="flex text-xl">
 							<TbPhone className="text-[25px]" />
@@ -61,33 +61,32 @@ const Contact = () => {
 						</div>
 					</div>
 					<div className="border rounded-md p-6 w-full">
-						{/* <h2 className="text-5xl mb-8">Hire Me</h2> */}
 						<form>
 							<div className="md:flex">
 								<input
 									data-aos="fade-right"
-									className="py-2 mr-5 pl-3 rounded-md w-full border"
+									className="py-2 mr-5 pl-3 rounded-md w-full border focus:border-[#F59E0B] focus:outline-none focus:border focus:ring-[#F59E0B]"
 									type="text"
-									placeholder="Name"
+									placeholder="Name :"
 								/>
 								<input
 									data-aos="fade-left"
-									className="border rounded-md pl-3 w-full"
+									className="border py-2 focus:border-[#F59E0B] focus:outline-none focus:border focus:ring-[#F59E0B] rounded-md pl-3 mt-5 md:mt-0 w-full"
 									type="text"
-									placeholder="Email"
+									placeholder="Email :"
 								/>
 							</div>
 							<input
 								data-aos="fade-left"
-								className="py-2 border pl-3 rounded-md my-5 w-full"
+								className="py-2 border pl-3 focus:border-[#F59E0B] focus:outline-none focus:border focus:ring-[#F59E0B] rounded-md my-5 w-full"
 								type="text"
-								placeholder="Subject"
+								placeholder="Subject :"
 							/>
 							<textarea
 								data-aos="fade-up"
-								className="border w-full pl-3 pt-3 rounded-md h-[100px]"
+								className="border w-full pl-3 pt-3 focus:border-[#F59E0B] focus:outline-none focus:border focus:ring-[#F59E0B] rounded-md h-[100px]"
 								type="text"
-								placeholder="Tell Me More About The project"
+								placeholder="Message :"
 							/>
 							<button className="border px-6 py-2 rounded-md mt-5 text-white bg-[#F59E0B] hover:bg-[#D97706] duration-500">
 								Send Message
