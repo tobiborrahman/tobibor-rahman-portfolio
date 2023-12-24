@@ -2,7 +2,7 @@ import React from 'react';
 
 const Freelancer = () => {
 	return (
-		<div className="bg-[#575C69] py-20">
+		<div className="bg-[#575C69] dark:bg-[#0F172A] py-20">
 			<div className="text-center">
 				<h1 className="text-xl md:text-2xl text-white font-semibold capitalize">
 					I am available for freelancer project

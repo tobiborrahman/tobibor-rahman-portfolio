@@ -41,7 +41,7 @@ const Review = () => {
 		};
 	}, []);
 	return (
-		<div className="container px-3 md:px-20 py-20 bg-[#F9FAFB]">
+		<div className="container px-3 md:px-20 pb-7 md:pb-20  bg-[#F9FAFB] dark:bg-[#1E293B]">
 			<SectionTitle upperTitle="clients review" />
 			<Swiper
 				spaceBetween={30}
@@ -58,9 +58,9 @@ const Review = () => {
 				className="mySwiper"
 			>
 				<SwiperSlide className="w-[400px] pt-28">
-					<div className="p-6 bg-white arrow-tooltip">
+					<div className="p-6 arrow-tooltip bg-white dark:bg-[#0F172A]">
 						<MdFormatQuote className="text-[#ffb700] text-6xl" />
-						<p>
+						<p className="text-gray-500">
 							Obviously I am a Web Designer. Web Developer with
 							over 7 years of experience. Experienced with all
 							stages of the development.
@@ -72,6 +72,7 @@ const Review = () => {
 							itemStyles={myStyles}
 						/>
 					</div>
+
 					<div className="flex justify-center items-center">
 						<div className="">
 							<img
@@ -81,7 +82,7 @@ const Review = () => {
 							/>
 
 							<div className="text-center">
-								<h5 className="text-black font-medium">
+								<h5 className="text-black dark:text-white font-medium">
 									Tobibor Rahman
 								</h5>
 								<p className="text-gray-500 ">Manager</p>
@@ -90,9 +91,9 @@ const Review = () => {
 					</div>
 				</SwiperSlide>
 				<SwiperSlide className="w-[400px] pt-28">
-					<div className="p-6 bg-white arrow-tooltip">
+					<div className="p-6 bg-white arrow-tooltip dark:bg-[#0F172A]">
 						<MdFormatQuote className="text-[#ffb700] text-6xl" />
-						<p>
+						<p className="text-gray-500">
 							Obviously I am a Web Designer. Web Developer with
 							over 7 years of experience. Experienced with all
 							stages of the development.
@@ -113,8 +114,8 @@ const Review = () => {
 							/>
 
 							<div className="text-center">
-								<h5 className="text-black font-medium">
-									Tobibor Rahman
+								<h5 className="text-black dark:text-white font-medium">
+									Mizanur Rahman
 								</h5>
 								<p className="text-gray-500 ">Manager</p>
 							</div>
@@ -122,9 +123,9 @@ const Review = () => {
 					</div>
 				</SwiperSlide>
 				<SwiperSlide className="w-[400px] pt-28">
-					<div className="p-6 bg-white arrow-tooltip">
+					<div className="p-6 bg-white arrow-tooltip dark:bg-[#0F172A]">
 						<MdFormatQuote className="text-[#ffb700] text-6xl" />
-						<p>
+						<p className="text-gray-500">
 							Obviously I am a Web Designer. Web Developer with
 							over 7 years of experience. Experienced with all
 							stages of the development.
@@ -145,8 +146,8 @@ const Review = () => {
 							/>
 
 							<div className="text-center">
-								<h5 className="text-black font-medium">
-									Tobibor Rahman
+								<h5 className="text-black dark:text-white font-medium">
+									Muzibur Rahman
 								</h5>
 								<p className="text-gray-500 ">Manager</p>
 							</div>
@@ -154,9 +155,9 @@ const Review = () => {
 					</div>
 				</SwiperSlide>
 				<SwiperSlide className="w-[400px] pt-28">
-					<div className="p-6 bg-white arrow-tooltip">
+					<div className="p-6 bg-white arrow-tooltip dark:bg-[#0F172A]">
 						<MdFormatQuote className="text-[#ffb700] text-6xl" />
-						<p>
+						<p className="text-gray-500">
 							Obviously I am a Web Designer. Web Developer with
 							over 7 years of experience. Experienced with all
 							stages of the development.
@@ -171,14 +172,14 @@ const Review = () => {
 					<div className="flex justify-center items-center">
 						<div className="">
 							<img
-								className="w-20 ml-7 h-20 mt-4 rounded-full"
+								className="w-20 ml-3 h-20 mt-4 rounded-full"
 								src={man4}
 								alt=""
 							/>
 
 							<div className="text-center">
-								<h5 className="text-black font-medium">
-									Tobibor Rahman
+								<h5 className="text-black dark:text-white font-medium">
+									Asif Rahman
 								</h5>
 								<p className="text-gray-500 ">Manager</p>
 							</div>

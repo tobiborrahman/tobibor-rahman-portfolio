@@ -23,12 +23,12 @@ const Resume = () => {
 		Aos.init();
 	}, []);
 	return (
-		<div id="resume" className="bg-[#F9FAFB]">
+		<div id="resume" className="bg-[#F9FAFB] dark:bg-[#1E293B]">
 			<SectionTitle upperTitle="Resume"></SectionTitle>
 			<div className="pt-7">
 				<div>
 					<div className="px-3 md:px-20">
-						<h2 className="text-xl md:text-3xl text-gradient md:pt-16 mb-5 font-bold">
+						<h2 className="text-xl md:text-3xl dark:text-white text-gradient md:pt-16 mb-5 font-bold">
 							Education
 						</h2>
 						<div
@@ -38,11 +38,13 @@ const Resume = () => {
 							<h3 className="text-black text-xl rounded-md">
 								2015-2019
 							</h3>
-							<h4 className="text-3xl">Bachelor of Arts</h4>
+							<h4 className="text-3xl dark:text-white">
+								Bachelor of Arts
+							</h4>
 							<p className="text-[#F59E0B] text-3xl">
 								National University
 							</p>
-							<p className="text-xl">
+							<p className="text-xl dark:text-white">
 								I have completed my honours in 2019 from Bhawal
 								Badre Alam Govt.College, Gazipur .
 							</p>
@@ -51,7 +53,7 @@ const Resume = () => {
 				</div>
 
 				<div className="px-3 md:px-20 pb-5 md:pb-5">
-					<h2 className="text-3xl text-center md:text-left md:text-5xl  py-5 md:py-10 font-bold">
+					<h2 className="text-3xl text-center dark:text-white md:text-left md:text-5xl  py-5 md:py-10 font-bold">
 						Skills
 					</h2>
 				</div>

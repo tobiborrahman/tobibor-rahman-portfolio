@@ -26,14 +26,14 @@ const Portfolio = () => {
 	};
 
 	return (
-		<div>
+		<div className="dark:bg-[#0F172A]">
 			<div id="portfolio">
 				<SectionTitle upperTitle="my work & projects" />
 
 				<div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-7 px-3 md:px-20 py-5 md:py-20">
 					<div
 						data-aos="flip-right"
-						className="mb-5 shadow rounded-lg shadow-gray-200 hover:shadow-lg transition duration-300"
+						className="mb-5 shadow-lg rounded-lg dark:bg-[#1E293B] hover:shadow-xl transition duration-300"
 					>
 						<figure>
 							<img
@@ -54,7 +54,7 @@ const Portfolio = () => {
 					</div>
 					<div
 						data-aos="flip-down"
-						className=" mb-5 shadow rounded-lg shadow-gray-200 hover:shadow-lg transition duration-300"
+						className=" mb-5 shadow-lg rounded-lg dark:bg-[#1E293B] hover:shadow-xl transition duration-300"
 					>
 						<figure>
 							<img
@@ -75,7 +75,7 @@ const Portfolio = () => {
 					</div>
 					<div
 						data-aos="flip-left"
-						className=" mb-5 shadow rounded-lg shadow-gray-200 hover:shadow-lg transition duration-300"
+						className=" mb-5 shadow-lg rounded-lg dark:bg-[#1E293B] hover:shadow-xltransition duration-300"
 					>
 						<figure>
 							<img

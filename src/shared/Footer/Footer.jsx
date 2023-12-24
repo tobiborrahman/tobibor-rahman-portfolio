@@ -12,7 +12,7 @@ import { faMessage } from '@fortawesome/free-regular-svg-icons';
 const Footer = () => {
 	return (
 		<footer className="bg-[#192132] text-white py-5">
-			<div className="container mx-auto flex flex-col md:flex-row items-center justify-between px-20 mb-5 md:mb-0">
+			<div className="container mx-auto flex flex-col md:flex-row items-center justify-between px-3 lg:px-20 mb-5 md:mb-0">
 				<div>
 					<h1 className="text-3xl font-bold">TOBIBOR.</h1>
 				</div>

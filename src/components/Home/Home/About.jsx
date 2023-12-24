@@ -12,7 +12,7 @@ const About = () => {
 		Aos.init();
 	}, []);
 	return (
-		<div>
+		<div className="container dark:bg-[#0F172A]">
 			<div id="about">
 				<div className="md:flex justify-between items-center px-6 md:px-20 py-10 md:py-20 pb-10">
 					<img
@@ -21,7 +21,7 @@ const About = () => {
 						alt=""
 					/>
 					<div data-aos="fade-right" className="md:w-[800px]">
-						<h3 className="text-2xl mb-5 mt-8 md:mt-0 font-bold">
+						<h3 className="text-2xl mb-5 mt-8 md:mt-0 font-bold dark:text-white">
 							I am a passionate Web Designer and Developer
 						</h3>
 						<p className=" text-gray-400">
@@ -37,7 +37,10 @@ const About = () => {
 							been the industry's standard dummy text ever when an
 							unknown printer took a galley.
 						</p>
-						<button className="px-6 py-2 border-[.5px] text-[#F59E0B] border-[#F59E0B] rounded-md mt-5  bg-[#FDF1DB] hover:bg-[#F59E0B] hover:text-white duration-500">
+						<button
+							className="py-[10px] px-6 bg-amber-500/10 hover:bg-amber-500 border border-amber-500/10 hover:border-amber-500 text-amber-500 hover:text-white rounded-md mt-6 duration-300"
+							href
+						>
 							See Works
 						</button>
 					</div>

@@ -27,8 +27,10 @@ const Navbar = () => {
 	return (
 		<div>
 			<div
-				className={`flex justify-between items-center md:fixed md:w-full px-3 ${
-					scrolling ? 'bg-white shadow-sm px-3' : 'bg-transparent'
+				className={`flex justify-between items-center z-50 md:fixed md:w-full px-3 ${
+					scrolling
+						? 'bg-white shadow-sm px-3 dark:bg-[#161C2D] dark:shadow-b-md'
+						: 'bg-transparent'
 				} md:px-20 z-50 md:opacity-100 py-5 transition-all duration-300`}
 			>
 				<div>
@@ -107,26 +109,26 @@ const Navbar = () => {
 				<div className="flex justify-between items-center ml-5 list-none gap-1">
 					<FontAwesomeIcon
 						icon={faDribbble}
-						className={`w-4 h-4 border-[.2px] rounded-full p-[8px]  ${
+						className={`w-4 h-4 border-[.2px] dark:border-gray-700 rounded-full p-[8px]  ${
 							scrolling
 								? 'bg-[#F59E0B] hover:bg-[#D97706] text-white'
-								: 'bg-[#F59E0B] hover:bg-[#D97706] md:bg-white md:hover:bg-gray-200 text-white md:text-black'
+								: 'bg-[#F59E0B] hover:bg-[#D97706] md:bg-white md:hover:bg-gray-200 text-white md:text-black dark:bg-[#0F172A] dark:hover:bg-[#374151] dark:text-white'
 						} text-black  duration-300`}
 					></FontAwesomeIcon>
 					<FontAwesomeIcon
 						icon={faBehance}
-						className={`w-4 h-4 border-[.2px] rounded-full p-[8px]  ${
+						className={`w-4 h-4 border-[.2px] dark:border-gray-700 rounded-full p-[8px]  ${
 							scrolling
 								? 'bg-[#F59E0B] hover:bg-[#D97706] text-white'
-								: 'bg-[#F59E0B] hover:bg-[#D97706] md:bg-white md:hover:bg-gray-200 text-white md:text-black'
+								: 'bg-[#F59E0B] hover:bg-[#D97706] md:bg-white md:hover:bg-gray-200 text-white md:text-black dark:bg-[#0F172A] dark:hover:bg-[#374151] dark:text-white'
 						} text-black  duration-300`}
 					></FontAwesomeIcon>
 					<FontAwesomeIcon
 						icon={faInstagram}
-						className={`w-4 h-4 border-[.2px] rounded-full p-[8px]  ${
+						className={`w-4 h-4 border-[.2px] dark:border-gray-700 rounded-full p-[8px]  ${
 							scrolling
 								? 'bg-[#F59E0B] hover:bg-[#D97706] text-white'
-								: 'bg-[#F59E0B] hover:bg-[#D97706] md:bg-white md:hover:bg-gray-200 text-white md:text-black'
+								: 'bg-[#F59E0B] hover:bg-[#D97706] md:bg-white md:hover:bg-gray-200 text-white md:text-black dark:bg-[#0F172A] dark:hover:bg-[#374151] dark:text-white'
 						} text-black  duration-300`}
 					></FontAwesomeIcon>
 					<div className="md:hidden text-2xl ml-1">

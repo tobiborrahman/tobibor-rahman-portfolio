@@ -17,16 +17,16 @@ const Contact = () => {
 	}, []);
 
 	return (
-		<div className="bg-[#F9FAFB]">
+		<div className="bg-[#F9FAFB] dark:bg-[#1E293B]">
 			<div id="contact">
 				<SectionTitle upperTitle="get in touch"></SectionTitle>
 
 				<div className="md:flex items-center z-5 px-3 md:px-20 py-5 md:py-20">
 					<div data-aos="fade-right" className="md:w-1/4 mr-20">
 						<div className="flex">
-							<TbPhone className="text-[20px]" />
+							<TbPhone className="text-[20px] dark:text-white" />
 							<div className="ml-7">
-								<h4 className="text-black font-medium">
+								<h4 className="text-black dark:text-white font-medium">
 									Phone
 								</h4>
 								<p className="text-gray-500">+880 1316433225</p>
@@ -34,11 +34,11 @@ const Contact = () => {
 						</div>
 
 						<div className="flex py-5">
-							<div className="text-[20px]">
+							<div className="text-[20px] dark:text-white">
 								<MdMailOutline />
 							</div>
 							<div className="ml-7">
-								<h4 className="text-black font-medium">
+								<h4 className="text-black dark:text-white font-medium">
 									Email
 								</h4>
 								<p className="text-gray-500">
@@ -47,11 +47,11 @@ const Contact = () => {
 							</div>
 						</div>
 						<div className="flex">
-							<div className="text-[20px]">
+							<div className="text-[20px] dark:text-white">
 								<HiOutlineLocationMarker />
 							</div>
 							<div className=" ml-7">
-								<h4 className="text-black font-medium">
+								<h4 className="text-black dark:text-white font-medium">
 									Location
 								</h4>
 								<p className="text-gray-500">
@@ -60,35 +60,35 @@ const Contact = () => {
 							</div>
 						</div>
 					</div>
-					<div className="border rounded-md p-6 w-full bg-white">
+					<div className="shadow mt-7 md:mt-0 rounded-md p-6 w-full bg-white dark:bg-[#0F172A]">
 						<form>
 							<div className="md:flex">
 								<input
 									data-aos="fade-right"
-									className="py-2 mr-5 pl-3 rounded-md w-full border focus:border-[#F59E0B] focus:outline-none focus:border focus:ring-[#F59E0B]"
+									className="py-2 mr-5 border dark:border-gray-700 pl-3 bg-transparent rounded-md w-full focus:border-[#F59E0B] dark:focus:border-[#F59E0B] focus:outline-none focus:border focus:ring-[#F59E0B]"
 									type="text"
 									placeholder="Name :"
 								/>
 								<input
 									data-aos="fade-left"
-									className="border py-2 focus:border-[#F59E0B] focus:outline-none focus:border focus:ring-[#F59E0B] rounded-md pl-3 mt-5 md:mt-0 w-full"
+									className="py-2 border dark:border-gray-700 pl-3 bg-transparent rounded-md w-full focus:border-[#F59E0B] dark:focus:border-[#F59E0B] focus:outline-none focus:border focus:ring-[#F59E0B]"
 									type="text"
 									placeholder="Email :"
 								/>
 							</div>
 							<input
 								data-aos="fade-left"
-								className="py-2 border pl-3 focus:border-[#F59E0B] focus:outline-none focus:border focus:ring-[#F59E0B] rounded-md my-5 w-full"
+								className="py-2 my-5 border dark:border-gray-700 pl-3 bg-transparent rounded-md w-full focus:border-[#F59E0B] dark:focus:border-[#F59E0B] focus:outline-none focus:border focus:ring-[#F59E0B]"
 								type="text"
 								placeholder="Subject :"
 							/>
 							<textarea
 								data-aos="fade-up"
-								className="border w-full pl-3 pt-3 focus:border-[#F59E0B] focus:outline-none focus:border focus:ring-[#F59E0B] rounded-md h-[100px]"
+								className="py-2 border dark:border-gray-700 pl-3 bg-transparent rounded-md w-full focus:border-[#F59E0B] dark:focus:border-[#F59E0B] focus:outline-none focus:border focus:ring-[#F59E0B] h-[100px]"
 								type="text"
 								placeholder="Message :"
 							/>
-							<button className="border px-6 py-2 rounded-md mt-5 text-white bg-[#F59E0B] hover:bg-[#D97706] duration-500">
+							<button className=" px-6 py-2 rounded-md mt-5 text-white bg-[#F59E0B] hover:bg-[#D97706] duration-500">
 								Send Message
 							</button>
 						</form>
