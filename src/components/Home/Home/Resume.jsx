@@ -145,9 +145,9 @@ const Resume = () => {
 						/>
 					</div>
 				</div>
-				<div className="flex justify-center items-center">
+				<div className="flex justify-center items-center pb-7 md:pb-20 pt-3 md:pt-10 ">
 					<a
-						className="px-6 py-2 mb-5 md:my-14 border-[.5px] text-[#F59E0B] border-[#F59E0B] rounded-md mt-5 ml-2  bg-[#FDF1DB] hover:bg-[#F59E0B] hover:text-white duration-500 flex justify-center items-center"
+						className="py-[10px] px-6 bg-amber-500/10 hover:bg-amber-500 border font-semibold border-amber-500/10 hover:border-amber-500 text-amber-500 hover:text-white rounded-md mt-6 duration-300  flex justify-center items-center"
 						href="../../../public/resume.pdf"
 						download="final resume.pdf"
 					>

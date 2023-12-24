@@ -1,4 +1,3 @@
-import React, { useState } from 'react';
 import { useTypewriter, Cursor } from 'react-simple-typewriter';
 import { useEffect } from 'react';
 import './Banner.css';
@@ -7,30 +6,9 @@ import Aos from 'aos';
 import 'aos/dist/aos.css';
 import Navbar from '../../../shared/Navbar/Navbar';
 import Expertise from '../../common/expertise';
+import ThemeSwitch from '../../common/ThemeSwitch';
 
 const Banner = () => {
-	const [theme, setTheme] = useState(null);
-
-	useEffect(() => {
-		if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
-			setTheme('dark');
-		} else {
-			setTheme('light');
-		}
-	}, []);
-
-	useEffect(() => {
-		if (theme === 'dark') {
-			document.documentElement.classList.add('dark');
-		} else {
-			document.documentElement.classList.remove('dark');
-		}
-	}, [theme]);
-
-	const handleThemeSwitch = () => {
-		setTheme(theme === 'dark' ? 'light' : 'dark');
-	};
-
 	useEffect(() => {
 		Aos.init({ duration: '1000' });
 	}, []);
@@ -62,12 +40,6 @@ const Banner = () => {
 							<h3 className="text-2xl md:text-3xl font-semibold dark:text-white">
 								Hello!
 							</h3>
-
-							<div>
-								<button onClick={handleThemeSwitch}>
-									Theme
-								</button>
-							</div>
 
 							<div>
 								<h1 className="text-4xl md:text-5xl font-bold my-5 dark:text-white">
@@ -116,6 +88,7 @@ const Banner = () => {
 						/>
 					</div>
 				</div>
+				<ThemeSwitch />
 			</div>
 		</>
 	);

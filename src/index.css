@@ -15,7 +15,7 @@ body {
 }
 
 .arrow-tooltip {
-	filter: drop-shadow(rgba(0, 0, 0, 0.1) 0 0px 1px);
+	filter: drop-shadow(rgba(0, 0, 0, 0.2) 0 0px 1px);
 	border-radius: 7px;
 }
 

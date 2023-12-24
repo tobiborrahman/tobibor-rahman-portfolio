@@ -1,7 +1,5 @@
 import React from 'react';
-import { motion, useAnimation } from 'framer-motion';
-import { useEffect, useRef } from 'react';
-import SectionTitle from '../../../shared/SectionTitle/SectionTitle';
+import { useEffect } from 'react';
 import Aos from 'aos';
 import 'aos/dist/aos.css';
 
@@ -37,10 +35,7 @@ const About = () => {
 							been the industry's standard dummy text ever when an
 							unknown printer took a galley.
 						</p>
-						<button
-							className="py-[10px] px-6 bg-amber-500/10 hover:bg-amber-500 border border-amber-500/10 hover:border-amber-500 text-amber-500 hover:text-white rounded-md mt-6 duration-300"
-							href
-						>
+						<button className="py-[10px] px-6 bg-amber-500/10 hover:bg-amber-500 border font-semibold border-amber-500/10 hover:border-amber-500 text-amber-500 hover:text-white rounded-md mt-6 duration-300">
 							See Works
 						</button>
 					</div>
