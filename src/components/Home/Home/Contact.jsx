@@ -71,7 +71,7 @@ const Contact = () => {
 								/>
 								<input
 									data-aos="fade-left"
-									className="py-2 border dark:border-gray-700 pl-3 bg-transparent rounded-md w-full focus:border-[#F59E0B] dark:focus:border-[#F59E0B] focus:outline-none focus:border focus:ring-[#F59E0B]"
+									className="py-2 border mt-5 md:mt-0 dark:border-gray-700 pl-3 bg-transparent rounded-md w-full focus:border-[#F59E0B] dark:focus:border-[#F59E0B] focus:outline-none focus:border focus:ring-[#F59E0B]"
 									type="text"
 									placeholder="Email :"
 								/>

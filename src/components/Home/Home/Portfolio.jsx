@@ -44,7 +44,7 @@ const Portfolio = () => {
 						</figure>
 						<div className="card-body">
 							<button
-								onClick={handleClick2}
+								onClick={handleClick}
 								className="uppercase text-md font-bold flex items-center text-[#F59E0B]"
 							>
 								view details{' '}
@@ -65,7 +65,7 @@ const Portfolio = () => {
 						</figure>
 						<div className="card-body">
 							<button
-								onClick={handleClick}
+								onClick={handleClick2}
 								className="uppercase flex text-md font-bold items-center text-[#F59E0B]"
 							>
 								view details{' '}
