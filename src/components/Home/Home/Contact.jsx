@@ -17,7 +17,7 @@ const Contact = () => {
 	}, []);
 
 	return (
-		<div className="bg-[#F9FAFB] dark:bg-[#1E293B]">
+		<section className="bg-[#F9FAFB] dark:bg-[#1E293B]">
 			<div id="contact">
 				<SectionTitle upperTitle="get in touch"></SectionTitle>
 
@@ -95,7 +95,7 @@ const Contact = () => {
 					</div>
 				</div>
 			</div>
-		</div>
+		</section>
 	);
 };
 

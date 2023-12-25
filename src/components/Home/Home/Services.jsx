@@ -19,7 +19,7 @@ const Services = () => {
 		Aos.init({ duration: '1000' });
 	}, []);
 	return (
-		<div id="services" className="bg-[#F9FAFB] dark:bg-[#1E293B]">
+		<section id="services" className="bg-[#F9FAFB] dark:bg-[#1E293B]">
 			<div>
 				<SectionTitle upperTitle="what do I offer?" />
 
@@ -140,7 +140,7 @@ const Services = () => {
 					</div>
 				</div>
 			</div>
-		</div>
+		</section>
 	);
 };
 

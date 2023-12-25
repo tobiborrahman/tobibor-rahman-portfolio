@@ -88,7 +88,6 @@ const Banner = () => {
 						/>
 					</div>
 				</div>
-				<ThemeSwitch />
 			</div>
 		</>
 	);

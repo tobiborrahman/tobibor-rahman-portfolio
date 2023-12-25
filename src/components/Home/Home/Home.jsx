@@ -9,6 +9,7 @@ import { Helmet } from 'react-helmet';
 import Freelancer from './Freelancer';
 import Review from './Review';
 import ScrollTOTop from '../../../shared/Scroll/ScrollTOTop';
+import ThemeSwitch from '../../common/ThemeSwitch';
 
 const Home = () => {
 	return (
@@ -16,6 +17,8 @@ const Home = () => {
 			<Helmet>
 				<title>Portfolio - Tobibor Rahman</title>
 			</Helmet>
+			<ThemeSwitch />
+			<ScrollTOTop />
 			<Banner></Banner>
 			<About></About>
 			<Services></Services>
@@ -23,7 +26,6 @@ const Home = () => {
 			<Resume></Resume>
 			<Portfolio></Portfolio>
 			<Review />
-			<ScrollTOTop />
 			<Contact></Contact>
 		</div>
 	);

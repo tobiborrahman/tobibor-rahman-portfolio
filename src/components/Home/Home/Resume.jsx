@@ -23,7 +23,7 @@ const Resume = () => {
 		Aos.init();
 	}, []);
 	return (
-		<div id="resume" className="bg-[#F9FAFB] dark:bg-[#1E293B]">
+		<section id="resume" className="bg-[#F9FAFB] dark:bg-[#1E293B]">
 			<SectionTitle upperTitle="Resume"></SectionTitle>
 			<div className="pt-8">
 				<div>
@@ -155,7 +155,7 @@ const Resume = () => {
 					</a>
 				</div>
 			</div>
-		</div>
+		</section>
 	);
 };
 

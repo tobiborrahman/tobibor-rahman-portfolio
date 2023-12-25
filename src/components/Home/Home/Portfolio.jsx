@@ -26,7 +26,7 @@ const Portfolio = () => {
 	};
 
 	return (
-		<div className="dark:bg-[#0F172A]">
+		<section className="container mx-auto dark:bg-[#0F172A]">
 			<div id="portfolio">
 				<SectionTitle upperTitle="my work & projects" />
 
@@ -96,7 +96,7 @@ const Portfolio = () => {
 					</div>
 				</div>
 			</div>
-		</div>
+		</section>
 	);
 };
 

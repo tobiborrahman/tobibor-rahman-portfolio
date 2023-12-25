@@ -25,7 +25,7 @@ const Navbar = () => {
 	}, []);
 
 	return (
-		<div
+		<section
 			className={`container mx-auto flex justify-between items-center md:fixed w-full px-3 ${
 				scrolling
 					? 'bg-white shadow-sm px-3 dark:bg-[#161C2D] dark:shadow-b-md'
@@ -124,7 +124,7 @@ const Navbar = () => {
 					</div>
 				</div>
 			</div>
-		</div>
+		</section>
 	);
 };
 
