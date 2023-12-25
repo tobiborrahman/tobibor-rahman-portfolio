@@ -61,9 +61,9 @@ const Review = () => {
 					<div className="p-6 arrow-tooltip bg-white dark:bg-[#0F172A]">
 						<MdFormatQuote className="text-[#ffb700] text-6xl" />
 						<p className="text-gray-500">
-							Obviously I am a Web Designer. Web Developer with
-							over 7 years of experience. Experienced with all
-							stages of the development.
+							I am a Web Designer and Developer with over 2 years
+							of experience. I am working with all stages of the
+							designing and development.
 						</p>
 						<Rating
 							style={{ maxWidth: 100, padding: '15px 0' }}
@@ -94,9 +94,9 @@ const Review = () => {
 					<div className="p-6 bg-white arrow-tooltip dark:bg-[#0F172A]">
 						<MdFormatQuote className="text-[#ffb700] text-6xl" />
 						<p className="text-gray-500">
-							Obviously I am a Web Designer. Web Developer with
-							over 7 years of experience. Experienced with all
-							stages of the development.
+							I am a Web Designer and Developer with over 2 years
+							of experience. I am working with all stages of the
+							designing and development.
 						</p>
 						<Rating
 							style={{ maxWidth: 100, padding: '15px 0' }}
@@ -126,9 +126,9 @@ const Review = () => {
 					<div className="p-6 bg-white arrow-tooltip dark:bg-[#0F172A]">
 						<MdFormatQuote className="text-[#ffb700] text-6xl" />
 						<p className="text-gray-500">
-							Obviously I am a Web Designer. Web Developer with
-							over 7 years of experience. Experienced with all
-							stages of the development.
+							I am a Web Designer and Developer with over 2 years
+							of experience. I am working with all stages of the
+							designing and development.
 						</p>
 						<Rating
 							style={{ maxWidth: 100, padding: '15px 0' }}
@@ -158,9 +158,9 @@ const Review = () => {
 					<div className="p-6 bg-white arrow-tooltip dark:bg-[#0F172A]">
 						<MdFormatQuote className="text-[#ffb700] text-6xl" />
 						<p className="text-gray-500">
-							Obviously I am a Web Designer. Web Developer with
-							over 7 years of experience. Experienced with all
-							stages of the development.
+							I am a Web Designer and Developer with over 2 years
+							of experience. I am working with all stages of the
+							designing and development.
 						</p>
 						<Rating
 							style={{ maxWidth: 100, padding: '15px 0' }}

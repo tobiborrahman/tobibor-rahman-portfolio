@@ -31,9 +31,9 @@ const About = () => {
 							<br />
 							<br />
 							Delivering work within time and budget which meets
-							client’s requirements is our moto. Lorem Ipsum has
-							been the industry's standard dummy text ever when an
-							unknown printer took a galley.
+							client’s requirements is our moto. I love to do new
+							things exploring new things are always a reason of
+							joy for me.
 						</p>
 						<button className="py-[10px] px-6 bg-amber-500/10 hover:bg-amber-500 border font-semibold border-amber-500/10 hover:border-amber-500 text-amber-500 hover:text-white rounded-md mt-6 duration-300">
 							See Works
