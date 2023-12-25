@@ -25,7 +25,7 @@ const Resume = () => {
 	return (
 		<div id="resume" className="bg-[#F9FAFB] dark:bg-[#1E293B]">
 			<SectionTitle upperTitle="Resume"></SectionTitle>
-			<div className="pt-7">
+			<div className="pt-8">
 				<div>
 					<div className="px-3 md:px-20">
 						<h2 className="text-xl md:text-3xl dark:text-white text-gradient md:pt-16 mb-5 font-bold">
@@ -57,8 +57,8 @@ const Resume = () => {
 						Skills
 					</h2>
 				</div>
-				<div className="mx-3 md:mx-20">
-					<div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 gap-5 mb-3">
+				<div className="mx-10 md:mx-20">
+					<div className=" grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 gap-2 md:gap-5 mb-3">
 						<img
 							data-aos="fade-down"
 							data-aos-duration="100"

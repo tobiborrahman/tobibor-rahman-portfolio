@@ -11,7 +11,7 @@ const ScrollTOTop = () => {
 
 	useEffect(() => {
 		const handleScroll = () => {
-			const isScrolled = window.scrollY > 600; // Change this value based on your needs
+			const isScrolled = window.scrollY > 600;
 			setScrolling(isScrolled);
 		};
 

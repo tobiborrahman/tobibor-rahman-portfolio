@@ -21,7 +21,7 @@ const Contact = () => {
 			<div id="contact">
 				<SectionTitle upperTitle="get in touch"></SectionTitle>
 
-				<div className="md:flex items-center z-5 px-3 md:px-20 py-5 md:py-20">
+				<div className="md:flex items-center z-5 px-3 md:px-20 py-14 md:py-20">
 					<div data-aos="fade-right" className="md:w-1/4 mr-20">
 						<div className="flex">
 							<TbPhone className="text-[20px] dark:text-white" />

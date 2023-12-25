@@ -57,7 +57,7 @@ const Review = () => {
 				modules={[Autoplay]}
 				className="mySwiper"
 			>
-				<SwiperSlide className="w-[400px] pt-28">
+				<SwiperSlide className="w-[400px] pt-16 md:pt-28">
 					<div className="p-6 arrow-tooltip bg-white dark:bg-[#0F172A]">
 						<MdFormatQuote className="text-[#ffb700] text-6xl" />
 						<p className="text-gray-500">
@@ -90,7 +90,7 @@ const Review = () => {
 						</div>
 					</div>
 				</SwiperSlide>
-				<SwiperSlide className="w-[400px] pt-28">
+				<SwiperSlide className="w-[400px] pt-16 md:pt-28">
 					<div className="p-6 bg-white arrow-tooltip dark:bg-[#0F172A]">
 						<MdFormatQuote className="text-[#ffb700] text-6xl" />
 						<p className="text-gray-500">
@@ -122,7 +122,7 @@ const Review = () => {
 						</div>
 					</div>
 				</SwiperSlide>
-				<SwiperSlide className="w-[400px] pt-28">
+				<SwiperSlide className="w-[400px] pt-16 md:pt-28">
 					<div className="p-6 bg-white arrow-tooltip dark:bg-[#0F172A]">
 						<MdFormatQuote className="text-[#ffb700] text-6xl" />
 						<p className="text-gray-500">
@@ -154,7 +154,7 @@ const Review = () => {
 						</div>
 					</div>
 				</SwiperSlide>
-				<SwiperSlide className="w-[400px] pt-28">
+				<SwiperSlide className="w-[400px] pt-16 md:pt-28">
 					<div className="p-6 bg-white arrow-tooltip dark:bg-[#0F172A]">
 						<MdFormatQuote className="text-[#ffb700] text-6xl" />
 						<p className="text-gray-500">

@@ -30,7 +30,7 @@ const Portfolio = () => {
 			<div id="portfolio">
 				<SectionTitle upperTitle="my work & projects" />
 
-				<div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-7 px-3 md:px-20 py-5 md:py-20">
+				<div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-7 px-3 md:px-20 py-14 md:py-20">
 					<div
 						data-aos="flip-right"
 						className="mb-5 shadow-lg rounded-lg dark:bg-[#1E293B] hover:shadow-xl transition duration-300"

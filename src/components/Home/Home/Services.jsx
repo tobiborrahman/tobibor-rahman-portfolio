@@ -23,7 +23,7 @@ const Services = () => {
 			<div>
 				<SectionTitle upperTitle="what do I offer?" />
 
-				<div className="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 mt-8 gap-[30px] px-3 md:px-20 pb-10 md:py-20">
+				<div className="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 mt-8 gap-[30px] px-3 md:px-20 py-10 md:py-20">
 					<div
 						data-aos="fade-right"
 						className="px-6 py-10 shadow shadow-gray-200 hover:shadow-lg dark:shadow-gray-800 dark:hover:shadow-gray-700 transition rounded-2xl bg-white dark:bg-slate-900 md:h-[290px] duration-500"
