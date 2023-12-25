@@ -29,7 +29,6 @@ const Banner = () => {
 		<>
 			<div className="bg-[#FEFAF3] dark:bg-[#1A1E29] dark:text-white">
 				<Navbar />
-				<Expertise />
 
 				<div
 					id="banner"
@@ -86,6 +85,7 @@ const Banner = () => {
 							src={profile}
 							alt=""
 						/>
+						<Expertise />
 					</div>
 				</div>
 			</div>

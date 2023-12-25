@@ -23,15 +23,11 @@ const ScrollTOTop = () => {
 	}, []);
 	return (
 		<div>
-			<div>
+			<div className={`${scrolling ? '' : 'hidden'}`}>
 				<a href="#" onClick={scrollToTop}>
 					<FontAwesomeIcon
 						icon={faArrowUp}
-						className={`w-3 h-3 border-gray-800 bg-[#F59E0B] ${
-							scrolling
-								? 'fixed bottom-6 right-6 overflow-x-hidden'
-								: 'hidden'
-						} rounded-full p-[10px] text-white`}
+						className={`w-3 h-3 bg-[#F59E0B] fixed bottom-6 right-6 z-50  rounded-full p-[10px] text-white`}
 					></FontAwesomeIcon>
 				</a>
 			</div>

@@ -24,7 +24,7 @@ const ThemeSwitch = () => {
 	};
 	return (
 		<>
-			<div className="fixed top-[30%] -right-3">
+			<div className="fixed top-[30%] -right-3 z-50">
 				<span class="relative inline-block rotate-90">
 					<input
 						type="checkbox"
