@@ -41,7 +41,7 @@ const Review = () => {
 		};
 	}, []);
 	return (
-		<section className="flex items-center justify-center bg-[#F9FAFB] dark:bg-[#1E293B]">
+		<section className="bg-[#F9FAFB] dark:bg-[#1E293B]">
 			<div className="custom-container">
 				<div className="px-3 md:px-20 pb-7 md:pb-20">
 					<SectionTitle upperTitle="clients review" />
