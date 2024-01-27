@@ -41,153 +41,163 @@ const Review = () => {
 		};
 	}, []);
 	return (
-		<section className="container mx-auto bg-[#F9FAFB] dark:bg-[#1E293B]">
-			<div className="px-3 md:px-20 pb-7 md:pb-20">
-				<SectionTitle upperTitle="clients review" />
-				<Swiper
-					spaceBetween={30}
-					slidesPerView={
-						windowWidth < 768 ? 1 : windowWidth < 1024 ? 2 : 3
-					}
-					centeredSlides={true}
-					loop={true}
-					autoplay={{
-						delay: 2500,
-						disableOnInteraction: false,
-					}}
-					modules={[Autoplay]}
-					className="mySwiper"
-				>
-					<SwiperSlide className="w-[400px] pt-16 md:pt-28">
-						<div className="p-6 arrow-tooltip bg-white dark:bg-[#0F172A]">
-							<MdFormatQuote className="text-[#ffb700] text-6xl" />
-							<p className="text-gray-500">
-								I am a Web Designer and Developer with over 2
-								years of experience. I am working with all
-								stages of the designing and development.
-							</p>
-							<Rating
-								style={{ maxWidth: 100, padding: '15px 0' }}
-								value={rating}
-								onChange={setRating}
-								itemStyles={myStyles}
-							/>
-						</div>
-
-						<div className="flex justify-center items-center">
-							<div className="">
-								<img
-									className="w-20 ml-7 h-20 mt-4 rounded-full"
-									src={man1}
-									alt=""
+		<section className="flex items-center justify-center bg-[#F9FAFB] dark:bg-[#1E293B]">
+			<div className="custom-container">
+				<div className="px-3 md:px-20 pb-7 md:pb-20">
+					<SectionTitle upperTitle="clients review" />
+					<Swiper
+						spaceBetween={30}
+						slidesPerView={
+							windowWidth < 768 ? 1 : windowWidth < 1024 ? 2 : 3
+						}
+						centeredSlides={true}
+						loop={true}
+						autoplay={{
+							delay: 2500,
+							disableOnInteraction: false,
+						}}
+						modules={[Autoplay]}
+						className="mySwiper"
+					>
+						<SwiperSlide className="w-[400px] pt-16 md:pt-28">
+							<div className="p-6 arrow-tooltip bg-white dark:bg-[#0F172A]">
+								<MdFormatQuote className="text-[#ffb700] text-6xl" />
+								<p className="text-gray-500">
+									I am a Web Designer and Developer with over
+									2 years of experience. I am working with all
+									stages of the designing and development.
+								</p>
+								<Rating
+									style={{ maxWidth: 100, padding: '15px 0' }}
+									value={rating}
+									onChange={setRating}
+									itemStyles={myStyles}
 								/>
+							</div>
 
-								<div className="text-center">
-									<h5 className="text-black dark:text-white font-medium">
-										Tobibor Rahman
-									</h5>
-									<p className="text-gray-500 ">Manager</p>
+							<div className="flex justify-center items-center">
+								<div className="">
+									<img
+										className="w-20 ml-7 h-20 mt-4 rounded-full"
+										src={man1}
+										alt=""
+									/>
+
+									<div className="text-center">
+										<h5 className="text-black dark:text-white font-medium">
+											Tobibor Rahman
+										</h5>
+										<p className="text-gray-500 ">
+											Manager
+										</p>
+									</div>
 								</div>
 							</div>
-						</div>
-					</SwiperSlide>
-					<SwiperSlide className="w-[400px] pt-16 md:pt-28">
-						<div className="p-6 bg-white arrow-tooltip dark:bg-[#0F172A]">
-							<MdFormatQuote className="text-[#ffb700] text-6xl" />
-							<p className="text-gray-500">
-								I am a Web Designer and Developer with over 2
-								years of experience. I am working with all
-								stages of the designing and development.
-							</p>
-							<Rating
-								style={{ maxWidth: 100, padding: '15px 0' }}
-								value={rating}
-								onChange={setRating}
-								itemStyles={myStyles}
-							/>
-						</div>
-						<div className="flex justify-center items-center">
-							<div className="">
-								<img
-									className="w-20 ml-7 h-20 mt-4 rounded-full"
-									src={man2}
-									alt=""
+						</SwiperSlide>
+						<SwiperSlide className="w-[400px] pt-16 md:pt-28">
+							<div className="p-6 bg-white arrow-tooltip dark:bg-[#0F172A]">
+								<MdFormatQuote className="text-[#ffb700] text-6xl" />
+								<p className="text-gray-500">
+									I am a Web Designer and Developer with over
+									2 years of experience. I am working with all
+									stages of the designing and development.
+								</p>
+								<Rating
+									style={{ maxWidth: 100, padding: '15px 0' }}
+									value={rating}
+									onChange={setRating}
+									itemStyles={myStyles}
 								/>
+							</div>
+							<div className="flex justify-center items-center">
+								<div className="">
+									<img
+										className="w-20 ml-7 h-20 mt-4 rounded-full"
+										src={man2}
+										alt=""
+									/>
 
-								<div className="text-center">
-									<h5 className="text-black dark:text-white font-medium">
-										Mizanur Rahman
-									</h5>
-									<p className="text-gray-500 ">Manager</p>
+									<div className="text-center">
+										<h5 className="text-black dark:text-white font-medium">
+											Mizanur Rahman
+										</h5>
+										<p className="text-gray-500 ">
+											Manager
+										</p>
+									</div>
 								</div>
 							</div>
-						</div>
-					</SwiperSlide>
-					<SwiperSlide className="w-[400px] pt-16 md:pt-28">
-						<div className="p-6 bg-white arrow-tooltip dark:bg-[#0F172A]">
-							<MdFormatQuote className="text-[#ffb700] text-6xl" />
-							<p className="text-gray-500">
-								I am a Web Designer and Developer with over 2
-								years of experience. I am working with all
-								stages of the designing and development.
-							</p>
-							<Rating
-								style={{ maxWidth: 100, padding: '15px 0' }}
-								value={rating}
-								onChange={setRating}
-								itemStyles={myStyles}
-							/>
-						</div>
-						<div className="flex justify-center items-center">
-							<div className="">
-								<img
-									className="w-20 ml-7 h-20 mt-4 rounded-full"
-									src={man3}
-									alt=""
+						</SwiperSlide>
+						<SwiperSlide className="w-[400px] pt-16 md:pt-28">
+							<div className="p-6 bg-white arrow-tooltip dark:bg-[#0F172A]">
+								<MdFormatQuote className="text-[#ffb700] text-6xl" />
+								<p className="text-gray-500">
+									I am a Web Designer and Developer with over
+									2 years of experience. I am working with all
+									stages of the designing and development.
+								</p>
+								<Rating
+									style={{ maxWidth: 100, padding: '15px 0' }}
+									value={rating}
+									onChange={setRating}
+									itemStyles={myStyles}
 								/>
+							</div>
+							<div className="flex justify-center items-center">
+								<div className="">
+									<img
+										className="w-20 ml-7 h-20 mt-4 rounded-full"
+										src={man3}
+										alt=""
+									/>
 
-								<div className="text-center">
-									<h5 className="text-black dark:text-white font-medium">
-										Muzibur Rahman
-									</h5>
-									<p className="text-gray-500 ">Manager</p>
+									<div className="text-center">
+										<h5 className="text-black dark:text-white font-medium">
+											Muzibur Rahman
+										</h5>
+										<p className="text-gray-500 ">
+											Manager
+										</p>
+									</div>
 								</div>
 							</div>
-						</div>
-					</SwiperSlide>
-					<SwiperSlide className="w-[400px] pt-16 md:pt-28">
-						<div className="p-6 bg-white arrow-tooltip dark:bg-[#0F172A]">
-							<MdFormatQuote className="text-[#ffb700] text-6xl" />
-							<p className="text-gray-500">
-								I am a Web Designer and Developer with over 2
-								years of experience. I am working with all
-								stages of the designing and development.
-							</p>
-							<Rating
-								style={{ maxWidth: 100, padding: '15px 0' }}
-								value={rating}
-								onChange={setRating}
-								itemStyles={myStyles}
-							/>
-						</div>
-						<div className="flex justify-center items-center">
-							<div className="">
-								<img
-									className="w-20 ml-3 h-20 mt-4 rounded-full"
-									src={man4}
-									alt=""
+						</SwiperSlide>
+						<SwiperSlide className="w-[400px] pt-16 md:pt-28">
+							<div className="p-6 bg-white arrow-tooltip dark:bg-[#0F172A]">
+								<MdFormatQuote className="text-[#ffb700] text-6xl" />
+								<p className="text-gray-500">
+									I am a Web Designer and Developer with over
+									2 years of experience. I am working with all
+									stages of the designing and development.
+								</p>
+								<Rating
+									style={{ maxWidth: 100, padding: '15px 0' }}
+									value={rating}
+									onChange={setRating}
+									itemStyles={myStyles}
 								/>
+							</div>
+							<div className="flex justify-center items-center">
+								<div className="">
+									<img
+										className="w-20 ml-3 h-20 mt-4 rounded-full"
+										src={man4}
+										alt=""
+									/>
 
-								<div className="text-center">
-									<h5 className="text-black dark:text-white font-medium">
-										Asif Rahman
-									</h5>
-									<p className="text-gray-500 ">Manager</p>
+									<div className="text-center">
+										<h5 className="text-black dark:text-white font-medium">
+											Asif Rahman
+										</h5>
+										<p className="text-gray-500 ">
+											Manager
+										</p>
+									</div>
 								</div>
 							</div>
-						</div>
-					</SwiperSlide>
-				</Swiper>
+						</SwiperSlide>
+					</Swiper>
+				</div>
 			</div>
 		</section>
 	);

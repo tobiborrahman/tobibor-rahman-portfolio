@@ -18,9 +18,10 @@ const Services = () => {
 	useEffect(() => {
 		Aos.init({ duration: '1000' });
 	}, []);
+
 	return (
 		<section id="services" className="bg-[#F9FAFB] dark:bg-[#1E293B]">
-			<div>
+			<div className="custom-container">
 				<SectionTitle upperTitle="what do I offer?" />
 
 				<div className="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 mt-8 gap-[30px] px-3 md:px-20 py-10 md:py-20">
