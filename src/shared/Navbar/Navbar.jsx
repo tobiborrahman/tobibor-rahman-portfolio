@@ -27,11 +27,11 @@ const Navbar = () => {
 	return (
 		<>
 			<section
-				className={`md:fixed w-full px-3 ${
+				className={`md:fixed w-full px-[80px] ${
 					scrolling
 						? 'bg-white shadow-sm dark:bg-[#161C2D] dark:shadow-b-md'
 						: 'bg-transparent'
-				} md:px-20 z-50 md:opacity-100 py-5 transition-all duration-300`}
+				}  z-50 md:opacity-100 py-5 transition-all duration-300`}
 			>
 				<div className="custom-container flex justify-between items-center ">
 					<div>
