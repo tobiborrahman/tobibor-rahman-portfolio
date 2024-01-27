@@ -26,6 +26,7 @@ const Navbar = () => {
 
 	return (
 		<>
+			{/* TODO: there is an issue to solve */}
 			<section
 				className={`md:fixed w-full px-[80px] ${
 					scrolling
