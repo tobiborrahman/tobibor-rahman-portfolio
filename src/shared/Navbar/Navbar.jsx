@@ -33,6 +33,7 @@ const Navbar = () => {
 						: 'bg-transparent'
 				}  z-50 md:opacity-100 py-5 transition-all duration-300`}
 			>
+				{/* browser compatibility done */}
 				<div className="custom-container">
 					<div className="flex justify-between items-center">
 						<div>
