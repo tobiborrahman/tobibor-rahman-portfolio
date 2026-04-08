@@ -15,10 +15,10 @@ const Banner = () => {
 
 	const [text] = useTypewriter({
 		words: [
-			'Web Designer',
-			'Front-End Developer',
-			'Back-End Developer',
-			'Full Stack Developer',
+			'Frontend Developer',
+			'Software Engineer',
+			'React Developer',
+			'Next.js Expert',
 		],
 		loop: {},
 		typeSpeed: 40,

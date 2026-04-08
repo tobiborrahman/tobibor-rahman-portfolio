@@ -27,25 +27,13 @@ const About = () => {
 										className="md:w-[800px]"
 									>
 										<h3 className="text-2xl mb-5 mt-8 md:mt-0 font-bold dark:text-white">
-											I am a passionate Web Designer and
-											Developer
+											I am a passionate Frontend Developer & Software Engineer
 										</h3>
-										<p className=" text-gray-400">
-											I help you build brand for your
-											business at an affordable price.
-											Thousands of clients have procured
-											exceptional results while working
-											with our dedicated team. when an
-											unknown printer took a galley of
-											type and scrambled it to make a type
-											specimen book.
+										<p className=" text-gray-400 text-lg leading-relaxed">
+											I specialize in building scalable, modular, and high-performance web applications using modern technologies like React.js, Next.js, and TypeScript. With a strong focus on UI/UX and performance optimization, I deliver seamless user experiences that drive business results.
 											<br />
 											<br />
-											Delivering work within time and
-											budget which meets client’s
-											requirements is our moto. I love to
-											do new things exploring new things
-											are always a reason of joy for me.
+											I am dedicated to writing clean, maintainable code and staying ahead of industry trends. Whether it's developing complex service management systems or interactive e-commerce platforms, I strive for excellence in every project I undertake.
 										</p>
 										<button className="py-[10px] px-6 bg-amber-500/10 hover:bg-amber-500 border font-semibold border-amber-500/10 hover:border-amber-500 text-amber-500 hover:text-white rounded-md mt-6 duration-300">
 											See Works
