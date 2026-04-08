@@ -6,7 +6,6 @@ import Aos from 'aos';
 import 'aos/dist/aos.css';
 import Navbar from '../../../shared/Navbar/Navbar';
 import Expertise from '../../common/expertise';
-import ThemeSwitch from '../../common/ThemeSwitch';
 
 const Banner = () => {
 	useEffect(() => {

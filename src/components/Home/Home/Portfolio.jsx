@@ -1,9 +1,6 @@
 import React from 'react';
 import { useEffect, useRef } from 'react';
 import SectionTitle from '../../../shared/SectionTitle/SectionTitle';
-import img1 from '../../../../public/motion-mingle.jpg';
-import img2 from '../../../../public/magical-music.png';
-import img3 from '../../../../public/chef-world.png';
 import { FaArrowRight } from 'react-icons/fa';
 import Aos from 'aos';
 import 'aos/dist/aos.css';
@@ -40,7 +37,7 @@ const Portfolio = () => {
 							<figure>
 								<img
 									className="overflow-hidden rounded-t-lg object-cover object-top hover:object-bottom w-full h-[300px] duration-1000"
-									src={img2}
+									src="../../../../public/magical-music.png"
 									alt="Magical Music"
 								/>
 							</figure>
@@ -61,7 +58,7 @@ const Portfolio = () => {
 							<figure>
 								<img
 									className="overflow-hidden rounded-t-lg object-cover object-top hover:object-bottom w-full h-[300px] duration-1000"
-									src={img1}
+									src="../../../../public/motion-mingle.jpg"
 									alt="Motion Mingle"
 								/>
 							</figure>
@@ -82,7 +79,7 @@ const Portfolio = () => {
 							<figure>
 								<img
 									className="overflow-hidden rounded-t-lg object-cover object-top hover:object-bottom w-full h-[300px] duration-1000"
-									src={img3}
+									src="../../../../public/chef-world.png"
 									alt="Chef World"
 								/>
 							</figure>
@@ -105,7 +102,7 @@ const Portfolio = () => {
 							<figure>
 								<img
 									className="overflow-hidden rounded-t-lg object-cover object-top hover:object-bottom w-full h-[300px] duration-1000"
-									src={img1}
+									src="../../../../public/agencyhandy.png"
 									alt="AgencyHandy"
 								/>
 							</figure>
